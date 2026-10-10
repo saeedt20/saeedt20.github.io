@@ -26,6 +26,7 @@ The personal website of **Saeed Taheri (سعید طاهری)**. A background in 
 - Keyboard navigation, visible focus indicators, a skip-to-content link, and reduced-motion support.
 - Locally hosted Vazirmatn fonts and language-specific favicons.
 - A readable Persian page even when JavaScript is disabled.
+- The official Enamad trust-seal image and verification link in the contact section.
 
 ## Built with
 
@@ -74,4 +75,3 @@ The profile introduction and technical background are adapted from [Saeed’s Gi
 
 - **Email:** [info@saeedt.ir](mailto:info@saeedt.ir)
 - **GitHub:** [@saeedt20](https://github.com/saeedt20)
-- **Telegram:** [@Saeeddot](https://t.me/Saeeddot)

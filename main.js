@@ -51,6 +51,9 @@
       securityDetails: "امن‌سازی سیستم · رمزنگاری · حریم خصوصی",
       print: "چاپ / ذخیره PDF",
       contactNote: "راه‌های ارتباط با من",
+      enamadLink: "مشاهده اعتبار نماد اعتماد الکترونیکی",
+      enamadAlt: "نماد اعتماد الکترونیکی",
+      verifyEnamad: "استعلام نماد",
       sayHello: "سلامی بگویید.",
       contactCopy:
         "برای گفتگو دربارهٔ فناوری یا همکاری در یک پروژه، با من در ارتباط باشید.",
@@ -108,6 +111,9 @@
       securityDetails: "System hardening · Encryption · Privacy",
       print: "Print / save PDF",
       contactNote: "A direct line",
+      enamadLink: "Verify the Enamad electronic trust seal",
+      enamadAlt: "Enamad electronic trust seal",
+      verifyEnamad: "Verify certificate",
       sayHello: "Let’s talk.",
       contactCopy:
         "Have a project in mind, or want to talk technology? Get in touch.",

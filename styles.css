@@ -2182,3 +2182,112 @@ main:focus {
     color: #555;
   }
 }
+
+/* The official seal stays on the physical left in both writing directions. */
+.contact-heading {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 76px);
+  align-items: center;
+  direction: ltr;
+}
+.contact-copy {
+  min-width: 0;
+}
+[dir="rtl"] .contact-copy {
+  direction: rtl;
+  text-align: right;
+}
+[dir="ltr"] .contact-copy {
+  direction: ltr;
+  text-align: left;
+}
+.contact-copy h2 {
+  font-size: clamp(46px, 6.7vw, 100px);
+}
+.enamad-badge {
+  display: grid;
+  place-items: center;
+  justify-self: start;
+  width: 150px;
+  min-height: 160px;
+  padding: 12px;
+  background: var(--paper);
+  border: 1px solid #d0d2c6;
+  border-radius: 3px;
+}
+.enamad-badge img {
+  width: 125px;
+  height: auto;
+  min-height: 136px;
+  object-fit: contain;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 11px;
+}
+@media (max-width: 900px) and (min-width: 761px) {
+  .contact-heading {
+    grid-template-columns: 130px minmax(0, 1fr);
+    gap: 30px;
+  }
+  .enamad-badge {
+    width: 125px;
+    min-height: 143px;
+    padding: 10px;
+  }
+  .enamad-badge img {
+    width: 105px;
+    min-height: 114px;
+  }
+  .contact-copy h2 {
+    gap: 18px;
+  }
+  .contact-copy .contact-asterisk {
+    font-size: 60px;
+  }
+}
+@media (max-width: 760px) {
+  .contact-heading {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .contact-copy {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .enamad-badge {
+    grid-column: 1;
+    grid-row: 2;
+    width: 125px;
+    min-height: 143px;
+    padding: 10px;
+  }
+  .enamad-badge img {
+    width: 105px;
+    min-height: 114px;
+  }
+  .contact-copy h2 {
+    font-size: clamp(42px, 8vw, 65px);
+  }
+}
+@media print {
+  .enamad-badge {
+    display: none;
+  }
+  .contact-heading {
+    display: block;
+  }
+}
+
+.enamad-label {
+  display: block;
+  margin-top: 8px;
+  color: var(--ink);
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.6;
+}
+.enamad-badge:hover .enamad-label {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
