@@ -7,7 +7,7 @@
  */
   const data = {
   name: { fa: 'سعید طاهری', en: 'Saeed Taheri' },
-  title: { fa: '73841814', en: '73841814' },
+  title: { fa: 'خویش‌فرما', en: 'Self-employed' },
   summary: {
     fa: 'من سعید طاهری هستم و به‌صورت مستقل فعالیت می‌کنم. اینجا می‌توانید پروژه‌های اخیر و راه‌های ارتباط با من را پیدا کنید.',
     en: 'I’m Saeed Taheri, and I work independently. Here you’ll find my recent projects and ways to get in touch.'
@@ -79,7 +79,7 @@
     document.getElementById('site-favicon').href = logoPath;
     document.getElementById('professional-title').textContent = translated(data.title);
     document.getElementById('summary').textContent = translated(data.summary);
-    document.title = `${translated(data.name)} — ${strings.personalProfile} | 73841814`;
+    document.title = `${translated(data.name)} — ${strings.personalProfile}`;
     document.querySelector('meta[name="description"]').content = translated(data.summary);
     const projects = document.getElementById('project-list');
     projects.replaceChildren();
