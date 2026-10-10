@@ -7,7 +7,7 @@
  */
   const data = {
   name: { fa: 'سعید طاهری', en: 'Saeed Taheri' },
-  title: { fa: '73841814', en: 'Self-employed' },
+  title: { fa: '73841814', en: '73841814' },
   summary: {
     fa: 'من سعید طاهری هستم و به‌صورت مستقل فعالیت می‌کنم. اینجا می‌توانید پروژه‌های اخیر و راه‌های ارتباط با من را پیدا کنید.',
     en: 'I’m Saeed Taheri, and I work independently. Here you’ll find my recent projects and ways to get in touch.'
