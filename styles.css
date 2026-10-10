@@ -2219,7 +2219,6 @@ main:focus {
 .enamad-badge img {
   width: 125px;
   height: auto;
-  min-height: 136px;
   object-fit: contain;
   cursor: pointer;
   color: var(--ink);
@@ -2237,7 +2236,6 @@ main:focus {
   }
   .enamad-badge img {
     width: 105px;
-    min-height: 114px;
   }
   .contact-copy h2 {
     gap: 18px;
@@ -2264,7 +2262,6 @@ main:focus {
   }
   .enamad-badge img {
     width: 105px;
-    min-height: 114px;
   }
   .contact-copy h2 {
     font-size: clamp(42px, 8vw, 65px);
@@ -2290,4 +2287,58 @@ main:focus {
 .enamad-badge:hover .enamad-label {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+/* Locally hosted profile and trust-seal images. */
+.about-label {
+  gap: 32px;
+}
+.profile-portrait {
+  width: 100%;
+  max-width: 280px;
+  margin: 0;
+}
+.profile-portrait img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+.profile-portrait figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  color: var(--muted);
+  font-size: 9px;
+}
+.about-label .about-signature {
+  margin-top: 0;
+}
+.enamad-badge img {
+  aspect-ratio: 1;
+}
+@media (max-width: 760px) {
+  .about-label {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    align-items: center;
+  }
+  .about-label > .section-index {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .about-label > .about-signature {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .profile-portrait {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    max-width: 190px;
+    justify-self: start;
+  }
 }

@@ -39,6 +39,8 @@
       viewSource: "کد و جزئیات",
       download: "دانلود",
       aboutHeading: "از زیرساخت تا رابط کاربری.",
+      profileAlt: "تصویر پروفایل سعید طاهری",
+      profileCaption: "پروفایل گیت‌هاب",
       summary:
         "من سعید طاهری هستم؛ با پیشینه‌ای در فناوری اطلاعات، شبکه، مدیریت سیستم و امنیت، مسیرم را در توسعهٔ وب ادامه می‌دهم. برای من، تجربهٔ کاربری خوب با امنیت و عملکرد مناسب همراه است.",
       journey:
@@ -99,6 +101,8 @@
       viewSource: "Source & details",
       download: "Download",
       aboutHeading: "From systems to interfaces.",
+      profileAlt: "Saeed Taheri’s profile picture",
+      profileCaption: "GitHub profile",
       summary:
         "I’m Saeed Taheri. With a background in IT, networking, system administration, and security, I’m developing my practice in web development. I care about interfaces that feel intuitive, with security and performance built in.",
       journey:

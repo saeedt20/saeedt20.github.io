@@ -26,20 +26,20 @@ The personal website of **Saeed Taheri (سعید طاهری)**. A background in 
 - Keyboard navigation, visible focus indicators, a skip-to-content link, and reduced-motion support.
 - Locally hosted Vazirmatn fonts and language-specific favicons.
 - A readable Persian page even when JavaScript is disabled.
-- The official Enamad trust-seal image and verification link in the contact section.
+- A locally hosted Enamad icon linked to the official certificate verification page.
 
 ## Built with
 
 HTML5, CSS, and vanilla JavaScript. The website is static and requires no package installation or build step.
 
-| File         | Purpose                                                                                     |
-| ------------ | ------------------------------------------------------------------------------------------- |
-| `index.html` | Page structure and Persian fallback content                                                 |
-| `main.js`    | Localized content, language switching, intro lifecycle, scroll reveals, and printing        |
-| `styles.css` | Layout, typography, responsive rules, and print styles                                      |
-| `assets/`    | Favicons, local fonts, original workstation artwork, and the TallyDesklet interface preview |
-| `CNAME`      | Custom domain configuration for `saeedt.ir`                                                 |
-| `_headers`   | Response-header configuration for compatible static hosts                                   |
+| File         | Purpose                                                                                       |
+| ------------ | --------------------------------------------------------------------------------------------- |
+| `index.html` | Page structure and Persian fallback content                                                   |
+| `main.js`    | Localized content, language switching, intro lifecycle, scroll reveals, and printing          |
+| `styles.css` | Layout, typography, responsive rules, and print styles                                        |
+| `assets/`    | Favicons, local fonts, workstation artwork, and WebP profile, Enamad, and TallyDesklet images |
+| `CNAME`      | Custom domain configuration for `saeedt.ir`                                                   |
+| `_headers`   | Response-header configuration for compatible static hosts                                     |
 
 ## Preview locally
 
@@ -69,7 +69,7 @@ The Vazirmatn font license is included in [`assets/fonts/OFL.txt`](assets/fonts/
 
 ## Content and assets
 
-The profile introduction and technical background are adapted from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The computer workstation illustration and Telegram project artwork are original SVG/CSS compositions.
+The profile introduction and technical background are adapted from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture and Enamad icon are supplied by the owner. All raster images are served locally in WebP format. The computer workstation illustration and Telegram project artwork are original SVG/CSS compositions.
 
 ## Contact
 
