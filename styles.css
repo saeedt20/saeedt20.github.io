@@ -505,6 +505,89 @@ main:focus {
 .project-image:hover .image-open {
   transform: rotate(45deg);
 }
+.project-roozlet {
+  background: #dce8df;
+  color: #243e35;
+}
+.roozlet-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  min-width: 0;
+}
+.roozlet-preview img {
+  width: min(100%, 320px);
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 16px 36px #16312724;
+  transition: transform 0.5s var(--ease);
+}
+.project-roozlet:hover img {
+  transform: translateY(-4px);
+}
+.app-preview-note {
+  font-size: 10px;
+  text-align: center;
+}
+.project-couchzap {
+  background: #1d192b;
+  color: #d0bcff;
+}
+.couchzap-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.couchzap-mark img {
+  width: 108px;
+  height: 108px;
+}
+.couchzap-wordmark {
+  font-family: Arial, sans-serif;
+  font-size: clamp(32px, 4.5vw, 64px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.055em;
+  color: #f3ecff;
+}
+.couchzap-wordmark span {
+  color: #d0bcff;
+}
+.couchzap-tagline {
+  margin-top: 16px;
+  font:
+    8px Arial,
+    sans-serif;
+  letter-spacing: 0.15em;
+}
+.project-app .project-caption {
+  flex-direction: column;
+  gap: 14px;
+}
+.project-app .project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+}
+@media (min-width: 521px) and (max-width: 760px) {
+  .roozlet-preview img {
+    width: min(100%, 235px);
+  }
+  .app-preview-note {
+    font-size: 8px;
+  }
+  .couchzap-mark img {
+    width: 82px;
+    height: 82px;
+  }
+  .couchzap-tagline {
+    font-size: 6px;
+    margin-top: 8px;
+  }
+}
+
 .project-gemini {
   background: #000;
   color: #f2eee6;
@@ -2238,7 +2321,7 @@ main:focus {
   }
 }
 
-/* Keep the expanded profile readable on a single A4 page. */
+/* Keep the expanded profile readable across A4 print pages. */
 @media print {
   .project:not(.project-feature) .project-caption {
     display: grid;

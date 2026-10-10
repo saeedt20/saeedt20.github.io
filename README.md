@@ -8,11 +8,13 @@ The personal website of **Saeed Taheri (سعید طاهری)**. An IT profession
 
 ## Featured projects
 
-| Project          | Overview                                                                                                                                                    | Link                                                           |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **TallyDesklet** | Native Linux desktop widget for CPU, memory, disk, network speed, and daily/weekly data usage; built with Python, GTK 3, Cairo, and psutil for Xfce on X11. | [Source and details](https://github.com/saeedt20/tallydesklet) |
-| **GeminiShop**   | Curated marketplace bringing trusted subscription and digital-key sellers together.                                                                         | [Open in Telegram](https://t.me/GeminiRedeemBot)               |
-| **NumberFlare**  | Virtual-number storefront with cryptocurrency and credit-card payments.                                                                                     | [Open in Telegram](https://t.me/NumberFlareBot)                |
+| Project          | Overview                                                                                                                                                    | Link                                                                  |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **TallyDesklet** | Native Linux desktop widget for CPU, memory, disk, network speed, and daily/weekly data usage; built with Python, GTK 3, Cairo, and psutil for Xfce on X11. | [Source and details](https://github.com/saeedt20/tallydesklet)        |
+| **Roozlet**      | Compact offline Persian calendar for Linux Mint/Xfce; bilingual controls, independent digits and verified Iranian holidays for 1405.                        | [Source and .deb releases](https://github.com/saeedt20/Roozlet)       |
+| **CouchZap**     | Lightweight IPTV player for Android TV boxes and phones; Kotlin/Media3 playback, local playlist import and remote/touch navigation.                         | [Source and build instructions](https://github.com/saeedt20/couchzap) |
+| **GeminiShop**   | Curated marketplace bringing trusted subscription and digital-key sellers together.                                                                         | [Open in Telegram](https://t.me/GeminiRedeemBot)                      |
+| **NumberFlare**  | Virtual-number storefront with cryptocurrency and credit-card payments.                                                                                     | [Open in Telegram](https://t.me/NumberFlareBot)                       |
 
 ## Website features
 
@@ -69,7 +71,7 @@ The Vazirmatn font license is included in [`assets/fonts/OFL.txt`](assets/fonts/
 
 ## Content and assets
 
-The introduction, experience, AI workflows, and marketplace descriptions reflect the owner’s background. Earlier technical context is drawn from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture, Enamad icon, and GeminiShop and NumberFlare backgrounds are supplied by the owner. All raster images are served locally in WebP format. The computer workstation illustration is an original SVG composition.
+The introduction, experience, AI workflows, and marketplace descriptions reflect the owner’s background. Earlier technical context is drawn from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture, Enamad icon, and GeminiShop and NumberFlare backgrounds are supplied by the owner. The Roozlet preview is an actual application screenshot served locally as PNG. CouchZap uses its original app-icon geometry in an SVG brand composition. Other raster images are served locally in WebP format. The computer workstation illustration is an original SVG composition.
 
 ## Contact
 

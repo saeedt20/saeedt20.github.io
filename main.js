@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  // Content is based on the owner’s background and project descriptions, plus TallyDesklet’s documentation.
+  // Content is based on the owner’s background and project descriptions, plus the TallyDesklet, Roozlet and CouchZap repositories.
   const copy = {
     fa: {
       name: "سعید طاهری",
@@ -36,6 +36,16 @@
       desktopWidget: "ابزار دسکتاپ لینوکس",
       tallyDescription:
         "ویجت دسکتاپ برای نمایش مصرف پردازنده، حافظه، دیسک، سرعت شبکه و مصرف روزانه و هفتگی اینترنت. ساخته‌شده برای Xfce روی X11؛ داده‌ها روی دستگاه شما می‌مانند.",
+      roozletLink: "مشاهده Roozlet در گیت‌هاب",
+      roozletAlt: "کارت واقعی تقویم فارسی Roozlet با پوستهٔ تیره",
+      roozletPreview: "رابط واقعی برنامه · Linux Mint Xfce",
+      roozletCategory: "تقویم فارسی برای دسکتاپ لینوکس",
+      roozletDescription:
+        "تقویم فارسی آفلاین برای لینوکس، با ویجت کوچک، نمایش ماهانه، رابط فارسی و انگلیسی و انتخاب مستقل ارقام. مناسبت‌ها و تعطیلات رسمی سال ۱۴۰۵ با تقویم نهایی دانشگاه تهران بررسی شده‌اند.",
+      couchzapLink: "مشاهده CouchZap در گیت‌هاب",
+      couchzapCategory: "پخش‌کنندهٔ IPTV برای اندروید",
+      couchzapDescription:
+        "پخش‌کنندهٔ سبک IPTV برای تلویزیون و گوشی اندرویدی؛ ساخته‌شده با Kotlin و Media3، با ورود فهرست پخش محلی، کنترل با ریموت و رابط لمسی. از فهرست پخش خودتان استفاده کنید؛ کانال یا اشتراکی همراه برنامه نیست.",
       viewSource: "کد و جزئیات",
       download: "دانلود",
       aboutHeading: "سیستم‌ها، هوش مصنوعی و وب.",
@@ -109,6 +119,16 @@
       desktopWidget: "Linux desktop utility",
       tallyDescription:
         "A desktop widget for CPU, memory, disk, network speed, and daily and weekly data usage. Built for Xfce on X11. Your measurements stay on your computer.",
+      roozletLink: "View Roozlet on GitHub",
+      roozletAlt: "Actual Roozlet Persian calendar card in the dark theme",
+      roozletPreview: "Actual app · Linux Mint Xfce",
+      roozletCategory: "Persian calendar for the Linux desktop",
+      roozletDescription:
+        "An offline Persian calendar with a compact widget, full month view, bilingual controls and independent digits. Iranian occasions and holidays for 1405 are verified against the final University of Tehran calendar.",
+      couchzapLink: "View CouchZap on GitHub",
+      couchzapCategory: "IPTV player for Android",
+      couchzapDescription:
+        "A lightweight IPTV player for Android TV boxes and phones. Built with Kotlin and Media3, with local playlist import, remote navigation and touch controls. Bring your own playlist; no channels or subscriptions are bundled.",
       viewSource: "Source & details",
       download: "Download",
       aboutHeading: "Systems, AI & the web.",
