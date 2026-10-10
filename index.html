@@ -1,75 +1,483 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f4ef">
-  <meta name="description" content="سعید طاهری؛ خویش‌فرما. پروژه‌های اخیر و راه‌های ارتباطی.">
-  <title>سعید طاهری — پروفایل شخصی</title>
-  <link id="site-favicon" rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="main.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main" data-i18n="skip">رفتن به محتوا</a>
-  <div class="layout">
-    <aside class="sidebar" aria-label="وب‌سایت شخصی" data-i18n-aria="site">
-      <a class="identity" href="#profile">
-        <span class="monogram" aria-hidden="true"><img id="site-logo" src="assets/favicon.svg" width="68" height="68" alt=""></span>
-        <span class="identity-name" id="sidebar-name">سعید طاهری</span>
-        <span class="identity-sub" data-i18n="site">وب‌سایت شخصی</span>
-      </a>
-      <nav class="navigation" aria-label="بخش‌های صفحه" data-i18n-aria="navigation">
-        <a class="nav-link active" href="#profile" aria-current="location"><span data-i18n="profile">درباره من</span><span class="nav-number" aria-hidden="true">01</span></a>
-        <a class="nav-link" href="#projects"><span data-i18n="projects">پروژه‌ها</span><span class="nav-number" aria-hidden="true">02</span></a>
-        <a class="nav-link" href="#contact"><span data-i18n="contact">ارتباط</span><span class="nav-number" aria-hidden="true">03</span></a>
-      </nav>
-      <div class="sidebar-bottom">
-        <span class="small-label" data-i18n="document">پروفایل شخصی</span>
-        <p data-i18n="sidebarNote">پروژه‌های اخیر و راه‌های ارتباط با من، در یک نگاه.</p>
-        <span class="sidebar-rule"></span>
-        <div class="language-switch" role="group" aria-label="زبان" data-i18n-aria="language">
-          <button type="button" data-lang="fa" aria-pressed="true">فارسی</button>
-          <span aria-hidden="true">/</span>
-          <button type="button" data-lang="en" aria-pressed="false">English</button>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f0efe9" />
+    <meta
+      name="description"
+      content="سعید طاهری؛ پیشینه‌ای در فناوری اطلاعات و امنیت، مسیری در توسعهٔ وب، و پروژه‌های اخیر."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Saeed Taheri — Personal website" />
+    <meta
+      property="og:description"
+      content="Independent work, recent projects, and ways to get in touch. Persian & English."
+    />
+    <meta property="og:url" content="https://saeedt.ir/" />
+    <title>سعید طاهری — وب‌سایت شخصی</title>
+    <link rel="canonical" href="https://saeedt.ir/" />
+    <link
+      id="site-favicon"
+      rel="icon"
+      href="assets/favicon.svg"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">رفتن به محتوا</a>
+    <div class="intro" id="intro" hidden>
+      <div class="intro-top">
+        <span class="intro-wordmark" dir="ltr">S / T</span
+        ><span data-i18n="personalWebsite">وب‌سایت شخصی</span>
+      </div>
+      <div class="intro-center" aria-hidden="true">
+        <div class="intro-line"><span id="intro-first">سعید</span></div>
+        <div class="intro-line intro-line-last">
+          <span id="intro-last">طاهری</span><i></i>
         </div>
       </div>
-    </aside>
-    <main id="main" tabindex="-1">
-      <div class="topbar">
-        <span class="small-label" data-i18n="personalProfile">پروفایل شخصی</span>
-        <button class="print-button" type="button" id="print-button">
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 8V3h10v5M7 17H4V9h16v8h-3"/><path d="M7 14h10v7H7zM16 11h1"/></svg>
-          <span data-i18n="print">چاپ / ذخیره PDF</span>
+      <div class="intro-bottom">
+        <span dir="ltr">saeedt.ir</span
+        ><button id="skip-intro" type="button" data-i18n="skipIntro">
+          رد کردن معرفی
         </button>
       </div>
-      <div class="document">
-        <section class="profile" id="profile" aria-labelledby="profile-name">
-          <div class="profile-meta"><span class="small-label" data-i18n="introduction">درباره من</span></div>
-          <h1 id="profile-name">سعید طاهری</h1>
-          <p class="professional-title" id="professional-title">خویش‌فرما</p>
-          <p class="summary" id="summary">من سعید طاهری هستم و به‌صورت مستقل فعالیت می‌کنم. اینجا می‌توانید پروژه‌های اخیر و راه‌های ارتباط با من را پیدا کنید.</p>
-          <a class="text-link profile-link" href="#projects"><span data-i18n="viewProjects">مرور پروژه‌ها</span><span class="arrow" aria-hidden="true">↙</span></a>
-        </section>
-        <section class="resume-section" id="projects" aria-labelledby="projects-heading">
-          <div class="section-heading"><div><span class="section-number" aria-hidden="true">01</span><h2 id="projects-heading" data-i18n="projects">پروژه‌ها</h2></div><span class="section-caption" data-i18n="projectsCaption">پروژه‌های اخیر من</span></div>
-          <div id="project-list">
-            <article class="project-entry"><div class="project-top"><div class="project-identity"><span class="project-number" aria-hidden="true">01</span><div><h3 class="project-title">GeminiRedeem</h3><p class="project-role">پروژهٔ اخیر</p></div></div><a class="text-link project-link" href="https://t.me/GeminiRedeemBot" target="_blank" rel="noopener noreferrer" aria-label="مشاهده در تلگرام: GeminiRedeem"><span>مشاهده در تلگرام</span><span class="external-arrow" aria-hidden="true">↗</span></a></div></article>
-            <article class="project-entry"><div class="project-top"><div class="project-identity"><span class="project-number" aria-hidden="true">02</span><div><h3 class="project-title">NumberFlare</h3><p class="project-role">پروژهٔ اخیر</p></div></div><a class="text-link project-link" href="https://t.me/NumberFlareBot" target="_blank" rel="noopener noreferrer" aria-label="مشاهده در تلگرام: NumberFlare"><span>مشاهده در تلگرام</span><span class="external-arrow" aria-hidden="true">↗</span></a></div></article>
-          </div>
-        </section>
-        <section class="resume-section contact-section" id="contact" aria-labelledby="contact-heading">
-          <div class="section-heading"><div><span class="section-number" aria-hidden="true">02</span><h2 id="contact-heading" data-i18n="contact">ارتباط</h2></div><span class="section-caption" data-i18n="contactCaption">راه‌های ارتباط با من</span></div>
-          <div id="contact-list" class="contact-links">
-            <a class="contact-link" href="mailto:info@saeedt.ir"><span>ایمیل</span><bdi>info@saeedt.ir</bdi></a>
-            <a class="contact-link" href="https://github.com/saeedt20" target="_blank" rel="noopener noreferrer"><span>گیت‌هاب</span><bdi>github.com/saeedt20</bdi></a>
-            <a class="contact-link" href="https://t.me/Saeeddot" target="_blank" rel="noopener noreferrer"><span>تلگرام</span><bdi>@Saeeddot</bdi></a>
-          </div>
-        </section>
-        <footer class="footer"><span id="footer-name">سعید طاهری</span><a href="#profile" class="text-link"><span data-i18n="backToTop">بازگشت به بالا</span><span aria-hidden="true">↑</span></a></footer>
+      <div class="intro-rule" aria-hidden="true"></div>
+    </div>
+    <header class="site-header" id="top">
+      <a
+        class="brand"
+        href="#top"
+        aria-label="سعید طاهری — آغاز صفحه"
+        data-i18n-aria="home"
+      >
+        <span class="brand-symbol" aria-hidden="true"
+          ><svg viewBox="0 0 48 48" fill="none">
+            <path
+              d="M20 12H11V23H20V36H11M27 12H39M33 12V36"
+              stroke="currentColor"
+              stroke-width="2.4"
+            />
+            <circle cx="40" cy="39" r="2" fill="currentColor" /></svg
+        ></span>
+        <span class="brand-name" data-i18n="name">سعید طاهری</span>
+      </a>
+      <nav
+        class="main-nav"
+        aria-label="بخش‌های صفحه"
+        data-i18n-aria="navigation"
+      >
+        <a href="#projects" data-i18n="projects">پروژه‌ها</a
+        ><a href="#about" data-i18n="about">درباره من</a
+        ><a href="#contact" data-i18n="contact">ارتباط</a>
+      </nav>
+      <div
+        class="language-switch"
+        role="group"
+        aria-label="زبان"
+        data-i18n-aria="language"
+      >
+        <button type="button" data-lang="fa" aria-pressed="true">
+          FA<span class="sr-only"> — فارسی</span></button
+        ><span aria-hidden="true">/</span
+        ><button type="button" data-lang="en" aria-pressed="false">
+          EN<span class="sr-only"> — English</span>
+        </button>
       </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-eyebrow">
+          <span class="eyebrow"
+            ><i class="status-dot" aria-hidden="true"></i
+            ><span data-i18n="independent">فعالیت مستقل</span></span
+          ><span class="edition" dir="ltr">PERSONAL INDEX — 03</span>
+        </div>
+        <div class="hero-grid">
+          <div class="hero-type">
+            <h1 id="hero-title">
+              <span class="name-line"><span id="name-first">سعید</span></span
+              ><span class="name-line last-name"
+                ><span id="name-last">طاهری</span
+                ><i class="name-dot" aria-hidden="true"></i
+              ></span>
+            </h1>
+            <div class="hero-description">
+              <span class="hero-small-rule" aria-hidden="true"></span>
+              <p data-i18n="heroNote">
+                پایه‌ای در فناوری اطلاعات؛ مسیری در توسعهٔ وب.
+              </p>
+            </div>
+            <a class="round-link hero-link" href="#projects"
+              ><span class="round-arrow" aria-hidden="true">↙</span
+              ><span data-i18n="explore">مرور پروژه‌ها</span></a
+            >
+          </div>
+          <div class="hero-art" aria-hidden="true" dir="ltr">
+            <div class="art-topline">
+              <span>FIG. 01</span><span>AN INDEPENDENT ORBIT</span>
+            </div>
+            <div class="orbit-wrap">
+              <img
+                class="orbit"
+                src="assets/orbit.svg"
+                alt=""
+                width="600"
+                height="620"
+              /><span class="art-coordinate art-coordinate-one">S</span
+              ><span class="art-coordinate art-coordinate-two">T</span>
+            </div>
+            <div class="art-bottomline">
+              <span>SAEED TAHERI</span
+              ><span class="art-stamp"
+                >ST<span class="art-stamp-small"
+                  >PERSONAL<br />MONOGRAM</span
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-footer">
+          <span data-i18n="selfEmployed">خویش‌فرما</span
+          ><span class="hero-footer-center" data-i18n="bilingual"
+            >فارسی و انگلیسی</span
+          ><a href="#projects" class="scroll-cue"
+            ><span data-i18n="scroll">ادامه صفحه</span
+            ><span aria-hidden="true">↓</span></a
+          >
+        </div>
+      </section>
+      <section
+        class="projects-section section-shell"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="section-top reveal">
+          <span class="eyebrow section-index"
+            ><span dir="ltr">01 /</span
+            ><span data-i18n="projects">پروژه‌ها</span></span
+          ><span class="section-note" data-i18n="projectsNote"
+            >نگاهی به پروژه‌های اخیر</span
+          >
+        </div>
+        <div class="section-heading reveal">
+          <h2 id="projects-title" data-i18n="selectedProjects">
+            پروژه‌های منتخب.
+          </h2>
+          <span class="heading-side" aria-hidden="true">↙</span>
+        </div>
+        <div class="project-grid">
+          <article class="project project-feature reveal">
+            <a
+              class="tally-art"
+              href="https://github.com/saeedt20/tallydesklet"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="مشاهده TallyDesklet در گیت‌هاب"
+              data-i18n-aria="tallyLink"
+            >
+              <div class="tally-art-copy" aria-hidden="true">
+                <span class="tally-topline">01 — TALLYDESKLET</span
+                ><span class="tally-wordmark"
+                  ><span>Tally</span><span>Desklet.</span></span
+                ><span class="tally-platform"
+                  >A SMALL WINDOW.<br />A CLEARER PICTURE.</span
+                >
+              </div>
+              <div class="tally-art-preview">
+                <img
+                  src="assets/tallydesklet-dark.png"
+                  width="640"
+                  height="660"
+                  loading="lazy"
+                  alt="پیش‌نمایش رابط TallyDesklet با داده‌های نمونه"
+                  data-i18n-alt="tallyAlt"
+                /><span class="tally-preview-note" data-i18n="tallyPreview"
+                  >پیش‌نمایش رابط با داده‌های نمونه</span
+                >
+              </div>
+            </a>
+            <div class="project-caption tally-caption">
+              <div>
+                <h3 dir="ltr">TallyDesklet</h3>
+                <p data-i18n="desktopWidget">ابزار دسکتاپ لینوکس</p>
+                <p class="project-description" data-i18n="tallyDescription">
+                  ویجت دسکتاپ برای نمایش مصرف پردازنده، حافظه، دیسک، سرعت شبکه و
+                  مصرف روزانه و هفتگی اینترنت. ساخته‌شده برای Xfce روی X11؛
+                  داده‌ها روی دستگاه شما می‌مانند.
+                </p>
+                <div class="project-tags">
+                  <span>PYTHON</span><span>GTK 3</span><span>CAIRO</span
+                  ><span>PSUTIL</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a
+                  class="project-text-link"
+                  href="https://github.com/saeedt20/tallydesklet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><span data-i18n="viewSource">کد و جزئیات</span
+                  ><span aria-hidden="true">↗</span></a
+                ><a
+                  class="project-text-link"
+                  href="https://github.com/saeedt20/tallydesklet/releases/latest"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><span data-i18n="download">دانلود</span
+                  ><span aria-hidden="true">↓</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <a
+              class="project-image project-gemini"
+              href="https://t.me/GeminiRedeemBot"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="مشاهده GeminiRedeem در تلگرام"
+              data-i18n-aria="geminiLink"
+            >
+              <div class="project-image-top" aria-hidden="true">
+                <span>02 — GEMINIREDEEM</span><span class="image-open">↗</span>
+              </div>
+              <div class="gemini-composition" aria-hidden="true">
+                <svg class="gemini-orbit" viewBox="0 0 500 440" fill="none">
+                  <ellipse
+                    cx="250"
+                    cy="220"
+                    rx="180"
+                    ry="137"
+                    transform="rotate(-30 250 220)"
+                  />
+                  <ellipse
+                    cx="250"
+                    cy="220"
+                    rx="180"
+                    ry="85"
+                    transform="rotate(30 250 220)"
+                  />
+                  <ellipse
+                    cx="250"
+                    cy="220"
+                    rx="82"
+                    ry="180"
+                    transform="rotate(-30 250 220)"
+                  />
+                  <circle cx="395" cy="124" r="5" /></svg
+                ><span class="gemini-letter g">G</span
+                ><span class="gemini-letter r">R</span
+                ><span class="gemini-plus">+</span>
+              </div>
+              <div class="project-image-bottom" aria-hidden="true">
+                <span>GEMINI / REDEEM</span><span>TELEGRAM ↗</span>
+              </div>
+            </a>
+            <div class="project-caption">
+              <div>
+                <h3 dir="ltr">GeminiRedeem</h3>
+                <p data-i18n="recentProject">پروژهٔ تلگرامی</p>
+              </div>
+              <a
+                class="project-text-link"
+                href="https://t.me/GeminiRedeemBot"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="مشاهده GeminiRedeem در تلگرام"
+                data-i18n-aria="geminiLink"
+                ><span data-i18n="viewProject">مشاهده پروژه</span
+                ><span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+          <article class="project reveal">
+            <a
+              class="project-image project-numberflare"
+              href="https://t.me/NumberFlareBot"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="مشاهده NumberFlare در تلگرام"
+              data-i18n-aria="numberLink"
+            >
+              <div class="project-image-top" aria-hidden="true">
+                <span>03 — NUMBERFLARE</span><span class="image-open">↗</span>
+              </div>
+              <div class="number-composition" aria-hidden="true">
+                <div class="number-grid"></div>
+                <div class="number-rings">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <span class="number-letter n">N</span
+                ><span class="number-letter f">F</span
+                ><span class="number-star"
+                  ><svg viewBox="0 0 80 80">
+                    <path
+                      d="M40 0L47 27L68 12L53 33L80 40L53 47L68 68L47 53L40 80L33 53L12 68L27 47L0 40L27 33L12 12L33 27Z"
+                      fill="currentColor"
+                    /></svg
+                ></span>
+              </div>
+              <div class="project-image-bottom" aria-hidden="true">
+                <span>NUMBER / FLARE</span><span>TELEGRAM ↗</span>
+              </div>
+            </a>
+            <div class="project-caption">
+              <div>
+                <h3 dir="ltr">NumberFlare</h3>
+                <p data-i18n="recentProject">پروژهٔ تلگرامی</p>
+              </div>
+              <a
+                class="project-text-link"
+                href="https://t.me/NumberFlareBot"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="مشاهده NumberFlare در تلگرام"
+                data-i18n-aria="numberLink"
+                ><span data-i18n="viewProject">مشاهده پروژه</span
+                ><span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="about-section section-shell"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="about-label reveal">
+          <span class="eyebrow section-index"
+            ><span dir="ltr">02 /</span
+            ><span data-i18n="about">درباره من</span></span
+          >
+          <div class="about-signature" aria-hidden="true" dir="ltr">
+            S / T<span>PERSONAL<br />WEBSITE.</span>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <h2 id="about-title" data-i18n="aboutHeading">
+            از زیرساخت تا رابط کاربری.
+          </h2>
+          <p class="about-summary" data-i18n="summary">
+            من سعید طاهری هستم؛ با پیشینه‌ای در فناوری اطلاعات، شبکه، مدیریت
+            سیستم و امنیت، مسیرم را در توسعهٔ وب ادامه می‌دهم. برای من، تجربهٔ
+            کاربری خوب با امنیت و عملکرد مناسب همراه است.
+          </p>
+          <p class="about-journey" data-i18n="journey">
+            بیش از ۱۵ سال است که فناوری را با کنجکاوی دنبال می‌کنم؛ از کار با
+            سخت‌افزار و لینوکس تا خودکارسازی و ساخت شبکه. اکنون این تجربه را با
+            طراحی رابط و توسعهٔ وب پیوند می‌دهم.
+          </p>
+          <div class="about-facts">
+            <span data-i18n="degree">کارشناسی نرم‌افزار کامپیوتر</span
+            ><span data-i18n="values">یادگیری مستمر، حریم خصوصی و متن‌باز</span>
+          </div>
+          <div class="expertise">
+            <div class="expertise-row">
+              <span data-i18n="webDevelopment">توسعهٔ وب</span
+              ><span>HTML / CSS · JavaScript · React · Node.js</span>
+            </div>
+            <div class="expertise-row">
+              <span data-i18n="systemsNetworks">سیستم و شبکه</span
+              ><span
+                >Linux / Windows · Bash / PowerShell · Cisco / OpenWRT</span
+              >
+            </div>
+            <div class="expertise-row">
+              <span data-i18n="security">امنیت</span
+              ><span data-i18n="securityDetails"
+                >امن‌سازی سیستم · رمزنگاری · حریم خصوصی</span
+              >
+            </div>
+          </div>
+          <div class="about-bottom">
+            <span class="about-role"
+              ><i class="status-dot" aria-hidden="true"></i
+              ><span data-i18n="selfEmployed">خویش‌فرما</span></span
+            ><button class="text-button" id="print-button" type="button">
+              <span data-i18n="print">چاپ / ذخیره PDF</span
+              ><svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M7 8V3H17V8M7 17H4V9H20V17H17M7 14H17V21H7ZM16 11H17"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-inner">
+          <div class="section-top reveal">
+            <span class="eyebrow section-index"
+              ><span dir="ltr">03 /</span
+              ><span data-i18n="contact">ارتباط</span></span
+            ><span class="section-note" data-i18n="contactNote"
+              >راه‌های ارتباط با من</span
+            >
+          </div>
+          <div class="contact-heading reveal">
+            <h2 id="contact-title">
+              <span data-i18n="sayHello">سلامی بگویید.</span
+              ><span class="contact-asterisk" aria-hidden="true">✳</span>
+            </h2>
+            <a class="email-link" href="mailto:info@saeedt.ir"
+              ><span dir="ltr">info@saeedt.ir</span
+              ><span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="contact-bottom reveal">
+            <p data-i18n="contactCopy">
+              برای گفتگو دربارهٔ فناوری یا همکاری در یک پروژه، با من در ارتباط
+              باشید.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/saeedt20"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>GitHub</span><span aria-hidden="true">↗</span></a
+              ><a
+                href="https://t.me/Saeeddot"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Telegram</span><span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-  </div>
-  <noscript><p class="noscript-note">برای تغییر زبان و چاپ، JavaScript را فعال کنید. / Enable JavaScript to switch language and print.</p></noscript>
-</body>
+    <footer class="site-footer">
+      <span class="footer-identity"
+        ><span data-i18n="name">سعید طاهری</span
+        ><span class="footer-separator" aria-hidden="true">/</span
+        ><a href="https://saeedt.ir/" dir="ltr">saeedt.ir</a></span
+      >
+      <div class="footer-actions">
+        <button class="text-button" id="replay-intro" type="button" hidden>
+          <span data-i18n="replay">نمایش دوباره معرفی</span
+          ><span aria-hidden="true">↺</span></button
+        ><a class="back-top" href="#top"
+          ><span data-i18n="backTop">بازگشت به بالا</span
+          ><span aria-hidden="true">↑</span></a
+        >
+      </div>
+    </footer>
+    <noscript
+      ><p class="noscript-note">
+        برای تغییر زبان و چاپ، JavaScript را فعال کنید. / Enable JavaScript to
+        switch language and print.
+      </p></noscript
+    >
+  </body>
 </html>
