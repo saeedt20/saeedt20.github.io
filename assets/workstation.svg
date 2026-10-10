@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" fill="none">
+  <title>Computer workstation — web, systems, and security</title>
+  <desc>An architectural illustration of a computer, keyboard, network nodes, and a security shield in ivory, sage, and ink.</desc>
+  <g stroke="#c5cbb9" stroke-width=".7">
+    <path d="M65 436L304 338L549 434L309 539Z"/>
+    <path d="M104 451L345 354M145 468L386 370M186 485L426 386M227 502L466 402M268 519L507 418M107 419L350 523M146 403L390 506M185 387L430 489M224 370L470 473M264 354L510 456"/>
+  </g>
+  <path d="M60 131H120M90 101V161M497 498H541M519 476V520" stroke="#afb7a1" stroke-width=".8"/>
+  <path d="M91 436V375L160 347M451 266H508V173" stroke="#87947a" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="91" cy="436" r="4" fill="#a34e36"/>
+  <circle cx="508" cy="173" r="4" fill="#a34e36"/>
+  <!-- A small network cabinet. -->
+  <path d="M68 292L88 280L145 287L126 302Z" fill="#e5e8da" stroke="#56634c" stroke-width="1.2"/>
+  <path d="M126 302L145 287V389L126 403Z" fill="#bdc8ae" stroke="#56634c" stroke-width="1.2"/>
+  <path d="M68 292L126 302V403L68 393Z" fill="#d9dfcc" stroke="#56634c" stroke-width="1.2"/>
+  <g stroke="#89987a" stroke-width=".9"><path d="M68 326L126 336M68 360L126 370M77 311L110 317M77 345L110 351M77 379L110 385"/></g>
+  <g fill="#a34e36"><circle cx="116" cy="319" r="2"/><circle cx="116" cy="353" r="2"/><circle cx="116" cy="387" r="2"/></g>
+  <!-- Monitor chassis and stand. -->
+  <path d="M155 165L177 150L469 182L447 197Z" fill="#e2e6d6" stroke="#56634c" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M447 197L469 182V364L447 379Z" fill="#acb99b" stroke="#56634c" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M272 357L304 361V420L272 416Z" fill="#c5cfb6" stroke="#56634c" stroke-width="1.3"/>
+  <path d="M304 361L316 354V413L304 420Z" fill="#a5b497" stroke="#56634c" stroke-width="1.3"/>
+  <path d="M231 417L273 398L353 410L310 432Z" fill="#d9dfcc" stroke="#56634c" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M231 417V423L310 439L353 417V410L310 432Z" fill="#bdc8ae" stroke="#56634c" stroke-width="1.1" stroke-linejoin="round"/>
+  <g transform="matrix(1 .11 0 1 0 -10)">
+    <rect x="155" y="158" width="292" height="182" rx="8" fill="#dfe5d2" stroke="#56634c" stroke-width="1.4"/>
+    <rect x="170" y="174" width="262" height="140" rx="3" fill="#293529"/>
+    <path d="M170 196H432" stroke="#526449" stroke-width=".7"/>
+    <circle cx="180" cy="185" r="2.4" fill="#c17858"/><circle cx="189" cy="185" r="2.4" fill="#a2af8e"/><circle cx="198" cy="185" r="2.4" fill="#6e8663"/>
+    <text x="216" y="188" fill="#aab99a" font-family="Arial,sans-serif" font-size="7" letter-spacing="1.1">SAEEDT.IR</text>
+    <path d="M209 215L197 227L209 239M236 215L248 227L236 239M228 211L217 244" stroke="#d5dfbe" stroke-width="2.4" stroke-linecap="square"/>
+    <text x="269" y="237" fill="#d9e5c2" font-family="Georgia,serif" font-size="28" font-style="italic">S / T</text>
+    <g stroke-width="2.2" stroke-linecap="square"><path d="M198 267H239M248 267H284M295 267H331" stroke="#8ea67d"/><path d="M198 279H217M228 279H258M269 279H314" stroke="#657e5a"/><path d="M198 291H241M251 291H278" stroke="#8ea67d"/><path d="M290 287V294" stroke="#c17858"/></g>
+    <circle cx="301" cy="327" r="2.1" fill="#6c7d5f"/>
+    <path d="M170 324H202M400 324H431" stroke="#a1ae92" stroke-width=".8"/>
+  </g>
+  <!-- A perspective keyboard with individually drawn keys. -->
+  <path d="M180 460L369 488L413 465L224 439Z" fill="#e4e7da" stroke="#67765b" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M180 460V466L369 495L413 471V465L369 488Z" fill="#c6d0b9" stroke="#67765b" stroke-width="1" stroke-linejoin="round"/>
+  <g transform="matrix(1 .145 -.8 .42 224 443)" fill="#c5cfb7" stroke="#899879" stroke-width=".65">
+    <rect x="0.0" y="0" width="11" height="8" rx="1"/>
+    <rect x="14.5" y="0" width="11" height="8" rx="1"/>
+    <rect x="29.0" y="0" width="11" height="8" rx="1"/>
+    <rect x="43.5" y="0" width="11" height="8" rx="1"/>
+    <rect x="58.0" y="0" width="11" height="8" rx="1"/>
+    <rect x="72.5" y="0" width="11" height="8" rx="1"/>
+    <rect x="87.0" y="0" width="11" height="8" rx="1"/>
+    <rect x="101.5" y="0" width="11" height="8" rx="1"/>
+    <rect x="116.0" y="0" width="11" height="8" rx="1"/>
+    <rect x="130.5" y="0" width="11" height="8" rx="1"/>
+    <rect x="145.0" y="0" width="11" height="8" rx="1"/>
+    <rect x="159.5" y="0" width="11" height="8" rx="1"/>
+    <rect x="0.0" y="12" width="11" height="8" rx="1"/>
+    <rect x="14.5" y="12" width="11" height="8" rx="1"/>
+    <rect x="29.0" y="12" width="11" height="8" rx="1"/>
+    <rect x="43.5" y="12" width="11" height="8" rx="1"/>
+    <rect x="58.0" y="12" width="11" height="8" rx="1"/>
+    <rect x="72.5" y="12" width="11" height="8" rx="1"/>
+    <rect x="87.0" y="12" width="11" height="8" rx="1"/>
+    <rect x="101.5" y="12" width="11" height="8" rx="1"/>
+    <rect x="116.0" y="12" width="11" height="8" rx="1"/>
+    <rect x="130.5" y="12" width="11" height="8" rx="1"/>
+    <rect x="145.0" y="12" width="11" height="8" rx="1"/>
+    <rect x="159.5" y="12" width="11" height="8" rx="1"/>
+    <rect x="0.0" y="24" width="11" height="8" rx="1"/>
+    <rect x="14.5" y="24" width="11" height="8" rx="1"/>
+    <rect x="29.0" y="24" width="11" height="8" rx="1"/>
+    <rect x="43.5" y="24" width="11" height="8" rx="1"/>
+    <rect x="58.0" y="24" width="11" height="8" rx="1"/>
+    <rect x="72.5" y="24" width="11" height="8" rx="1"/>
+    <rect x="87.0" y="24" width="11" height="8" rx="1"/>
+    <rect x="101.5" y="24" width="11" height="8" rx="1"/>
+    <rect x="116.0" y="24" width="11" height="8" rx="1"/>
+    <rect x="130.5" y="24" width="11" height="8" rx="1"/>
+    <rect x="145.0" y="24" width="11" height="8" rx="1"/>
+    <rect x="159.5" y="24" width="11" height="8" rx="1"/>
+    <rect x="0" y="36" width="22" height="8" rx="1"/><rect x="26" y="36" width="22" height="8" rx="1"/><rect x="52" y="36" width="78" height="8" rx="1"/><rect x="134" y="36" width="22" height="8" rx="1"/><rect x="160" y="36" width="10.5" height="8" rx="1"/>
+  </g>
+  <!-- Mouse and a minimal security/network annotation. -->
+  <path d="M451 439C443 435 438 438 434 443L425 455C422 461 424 466 432 469C440 472 447 470 451 465L460 453C464 447 460 442 451 439Z" fill="#d8deca" stroke="#67765b" stroke-width="1.1"/>
+  <path d="M437 442L452 448M447 440L444 445" stroke="#8a987d" stroke-width=".9"/>
+  <g stroke="#667759" stroke-width="1.2" stroke-linejoin="round">
+    <path d="M481 94L508 89L535 106V130C535 147 519 159 508 162C497 157 481 143 481 124Z" fill="#e4e8da"/>
+    <path d="M493 122L503 133L522 116" stroke="#a34e36" stroke-width="2"/>
+  </g>
+  <g stroke="#87947a" stroke-width=".8"><path d="M160 118V98H349M366 98H389M425 522H370M163 502H112"/><circle cx="160" cy="118" r="3" fill="#f0efe9"/><circle cx="425" cy="522" r="3" fill="#f0efe9"/></g>
+  <g fill="#7d8a70" font-family="Arial,sans-serif" font-size="7" letter-spacing="1.2"><text x="172" y="90">WEB / SYSTEMS / SECURITY</text><text x="117" y="526">01 — A CONNECTED WORKSPACE</text></g>
+</svg>

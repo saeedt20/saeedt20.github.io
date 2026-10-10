@@ -369,28 +369,13 @@ main:focus {
   border-bottom: 1px solid var(--line);
   padding-bottom: 13px;
 }
-.orbit-wrap {
+.illustration-wrap {
   position: relative;
 }
-.orbit {
+.hero-illustration {
   width: 100%;
   height: auto;
-  animation: orbit-float 10s ease-in-out infinite;
-}
-.art-coordinate {
-  position: absolute;
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-size: 20px;
-  color: var(--clay);
-}
-.art-coordinate-one {
-  top: 17%;
-  left: 12%;
-}
-.art-coordinate-two {
-  bottom: 18%;
-  right: 12%;
+  animation: device-float 10s ease-in-out infinite;
 }
 .art-bottomline {
   margin-top: -12px;
@@ -1263,13 +1248,13 @@ main:focus {
     transform: none;
   }
 }
-@keyframes orbit-float {
+@keyframes device-float {
   0%,
   100% {
-    transform: translateY(0) rotate(-2deg);
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-12px) rotate(2deg);
+    transform: translateY(-8px);
   }
 }
 @media (min-width: 1441px) {
@@ -1442,9 +1427,6 @@ main:focus {
   }
   .art-stamp-small {
     display: none;
-  }
-  .art-coordinate {
-    font-size: 13px;
   }
   .hero-footer {
     font-size: 9px;
@@ -1701,7 +1683,7 @@ main:focus {
     align-self: center;
     justify-self: center;
   }
-  .orbit-wrap {
+  .illustration-wrap {
     margin-inline: 0;
   }
   .art-topline {
