@@ -1,18 +1,18 @@
 # Saeed Taheri — Personal Website
 
-The personal website of **Saeed Taheri (سعید طاهری)**. A background in IT, networking, system administration, and security meets a growing focus on web development. This bilingual portfolio introduces that journey, presents recent projects, and provides direct ways to get in touch.
+The personal website of **Saeed Taheri (سعید طاهری)**. An IT professional and AI & automation enthusiast with around eight years of Linux experience, currently using Linux Mint 22.3 with Xfce. His work brings together systems, Python, AI agents, automation, and web development. This bilingual portfolio presents that background, recent projects, and availability for freelance work and personal or open-source collaboration.
 
 **[Visit saeedt.ir](https://saeedt.ir/)**
 
-وب‌سایت شخصی سعید طاهری؛ از فناوری اطلاعات، شبکه و امنیت تا توسعهٔ وب. معرفی، پروژه‌های منتخب و راه‌های ارتباط، به فارسی و انگلیسی.
+وب‌سایت شخصی سعید طاهری؛ فناوری اطلاعات، حدود ۸ سال تجربهٔ لینوکس، هوش مصنوعی و اتوماسیون، پایتون و وب. معرفی، پروژه‌ها و همکاری فریلنس و متن‌باز، به فارسی و انگلیسی.
 
 ## Featured projects
 
 | Project          | Overview                                                                                                                                                    | Link                                                           |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | **TallyDesklet** | Native Linux desktop widget for CPU, memory, disk, network speed, and daily/weekly data usage; built with Python, GTK 3, Cairo, and psutil for Xfce on X11. | [Source and details](https://github.com/saeedt20/tallydesklet) |
-| **GeminiRedeem** | Telegram project                                                                                                                                            | [Open in Telegram](https://t.me/GeminiRedeemBot)               |
-| **NumberFlare**  | Telegram project                                                                                                                                            | [Open in Telegram](https://t.me/NumberFlareBot)                |
+| **GeminiShop**   | Curated marketplace bringing trusted subscription and digital-key sellers together.                                                                         | [Open in Telegram](https://t.me/GeminiRedeemBot)               |
+| **NumberFlare**  | Virtual-number storefront with cryptocurrency and credit-card payments.                                                                                     | [Open in Telegram](https://t.me/NumberFlareBot)                |
 
 ## Website features
 
@@ -69,7 +69,7 @@ The Vazirmatn font license is included in [`assets/fonts/OFL.txt`](assets/fonts/
 
 ## Content and assets
 
-The profile introduction and technical background are adapted from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture, Enamad icon, and GeminiRedeem and NumberFlare backgrounds are supplied by the owner. All raster images are served locally in WebP format. The computer workstation illustration is an original SVG composition.
+The introduction, experience, AI workflows, and marketplace descriptions reflect the owner’s background. Earlier technical context is drawn from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture, Enamad icon, and GeminiShop and NumberFlare backgrounds are supplied by the owner. All raster images are served locally in WebP format. The computer workstation illustration is an original SVG composition.
 
 ## Contact
 

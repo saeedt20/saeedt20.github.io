@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  // Content is based on the owner's website, GitHub profile README, and TallyDesklet README.
+  // Content is based on the owner’s background and project descriptions, plus TallyDesklet’s documentation.
   const copy = {
     fa: {
       name: "سعید طاهری",
@@ -9,7 +9,7 @@
       lastName: "طاهری",
       title: "سعید طاهری — وب‌سایت شخصی",
       description:
-        "سعید طاهری؛ پیشینه‌ای در فناوری اطلاعات و امنیت، مسیری در توسعهٔ وب، و پروژه‌های اخیر.",
+        "سعید طاهری؛ فناوری اطلاعات، حدود ۸ سال تجربهٔ لینوکس، هوش مصنوعی و اتوماسیون، پایتون و توسعهٔ وب. آمادهٔ همکاری فریلنس و متن‌باز.",
       skip: "رفتن به محتوا",
       personalWebsite: "وب‌سایت شخصی",
       home: "سعید طاهری — آغاز صفحه",
@@ -19,16 +19,16 @@
       about: "درباره من",
       contact: "ارتباط",
       independent: "فعالیت مستقل",
-      heroNote: "پایه‌ای در فناوری اطلاعات؛ مسیری در توسعهٔ وب.",
+      heroNote: "فناوری اطلاعات و لینوکس؛ هوش مصنوعی، اتوماسیون و وب.",
       explore: "مرور پروژه‌ها",
-      selfEmployed: "خویش‌فرما",
+      selfEmployed: "آمادهٔ همکاری فریلنس",
       bilingual: "فارسی و انگلیسی",
       scroll: "ادامه صفحه",
       projectsNote: "نگاهی به پروژه‌های اخیر",
       selectedProjects: "پروژه‌های منتخب.",
       recentProject: "پروژهٔ تلگرامی",
       viewProject: "مشاهده پروژه",
-      geminiLink: "مشاهده GeminiRedeem در تلگرام",
+      geminiLink: "مشاهده GeminiShop در تلگرام",
       numberLink: "مشاهده NumberFlare در تلگرام",
       tallyLink: "مشاهده TallyDesklet در گیت‌هاب",
       tallyAlt: "پیش‌نمایش رابط TallyDesklet با داده‌های نمونه",
@@ -38,19 +38,19 @@
         "ویجت دسکتاپ برای نمایش مصرف پردازنده، حافظه، دیسک، سرعت شبکه و مصرف روزانه و هفتگی اینترنت. ساخته‌شده برای Xfce روی X11؛ داده‌ها روی دستگاه شما می‌مانند.",
       viewSource: "کد و جزئیات",
       download: "دانلود",
-      aboutHeading: "از زیرساخت تا رابط کاربری.",
+      aboutHeading: "سیستم‌ها، هوش مصنوعی و وب.",
       profileAlt: "تصویر پروفایل سعید طاهری",
       profileCaption: "پروفایل گیت‌هاب",
       summary:
-        "من سعید طاهری هستم؛ با پیشینه‌ای در فناوری اطلاعات، شبکه، مدیریت سیستم و امنیت، مسیرم را در توسعهٔ وب ادامه می‌دهم. برای من، تجربهٔ کاربری خوب با امنیت و عملکرد مناسب همراه است.",
+        "من سعید طاهری هستم؛ فعال حوزهٔ فناوری اطلاعات و علاقه‌مند به هوش مصنوعی و اتوماسیون. پیشینه‌ام در شبکه، مدیریت سیستم و امنیت است و امروز با پایتون، عامل‌های هوش مصنوعی و پروژه‌های وب کار می‌کنم.",
       journey:
-        "بیش از ۱۵ سال است که فناوری را با کنجکاوی دنبال می‌کنم؛ از کار با سخت‌افزار و لینوکس تا خودکارسازی و ساخت شبکه. اکنون این تجربه را با طراحی رابط و توسعهٔ وب پیوند می‌دهم.",
+        "بیش از ۱۵ سال است که فناوری را دنبال می‌کنم و حدود ۸ سال تجربهٔ کار با لینوکس دارم. در حال حاضر از Linux Mint 22.3 با محیط دسکتاپ Xfce استفاده می‌کنم.",
       degree: "کارشناسی نرم‌افزار کامپیوتر",
       values: "یادگیری مستمر، حریم خصوصی و متن‌باز",
-      webDevelopment: "توسعهٔ وب",
+      webDevelopment: "برنامه‌نویسی و وب",
       systemsNetworks: "سیستم و شبکه",
       security: "امنیت",
-      securityDetails: "امن‌سازی سیستم · رمزنگاری · حریم خصوصی",
+      securityDetails: "بررسی خطاها و لاگ‌ها · امنیت سیستم · حریم خصوصی",
       print: "چاپ / ذخیره PDF",
       contactNote: "راه‌های ارتباط با من",
       enamadLink: "مشاهده اعتبار نماد اعتماد الکترونیکی",
@@ -58,11 +58,22 @@
       verifyEnamad: "استعلام نماد",
       sayHello: "سلامی بگویید.",
       contactCopy:
-        "برای گفتگو دربارهٔ فناوری یا همکاری در یک پروژه، با من در ارتباط باشید.",
+        "برای پروژه‌های فریلنس در حوزهٔ فناوری اطلاعات، لینوکس، اتوماسیون و وب، یا همکاری در پروژه‌های شخصی و متن‌باز، با من در ارتباط باشید.",
       backTop: "بازگشت به بالا",
       skipIntro: "رد کردن معرفی",
       replay: "نمایش دوباره معرفی",
       introLabel: "معرفی سعید طاهری",
+      geminiCategory: "بازار اشتراک و کلید دیجیتال",
+      geminiDescription:
+        "فروشندگان معتبر اشتراک و کلیدهای دیجیتال را در یک جا گرد هم می‌آورم تا کاربران با اطمینان بیشتری محصول مورد نیازشان را انتخاب و خریداری کنند.",
+      numberCategory: "فروشگاه شمارهٔ مجازی",
+      numberDescription:
+        "فروش شمارهٔ مجازی به مشتریان، با امکان پرداخت از طریق رمزارز یا کارت اعتباری.",
+      workflow:
+        "برای بررسی خطاها و مشکلات امنیتی از هوش مصنوعی کمک می‌گیرم و برای پیدا کردن و رفع مشکل، لاگ‌های سیستم را نیز بررسی می‌کنم. اتوماسیون‌های من شامل عامل‌های تلگرامی، پاسخ به ایمیل، کارهای زمان‌بندی‌شدهٔ گیت‌هاب و پشتیبانی وب‌سایت هستند.",
+      aiAutomation: "هوش مصنوعی و اتوماسیون",
+      linuxExperience: "حدود ۸ سال تجربهٔ لینوکس",
+      currentDesktop: "Linux Mint 22.3 · Xfce",
     },
     en: {
       name: "Saeed Taheri",
@@ -70,7 +81,7 @@
       lastName: "Taheri",
       title: "Saeed Taheri — Personal website",
       description:
-        "Saeed Taheri. IT and security foundations, a focus on web development, and a selection of recent projects.",
+        "Saeed Taheri: IT, around eight years with Linux, AI and automation, Python, and web development. Available for freelance and open-source collaboration.",
       skip: "Skip to content",
       personalWebsite: "Personal website",
       home: "Saeed Taheri — Back to top",
@@ -80,16 +91,16 @@
       about: "About",
       contact: "Contact",
       independent: "Working independently",
-      heroNote: "IT foundations. A focus on the web.",
+      heroNote: "IT & Linux. AI, automation & the web.",
       explore: "Explore my projects",
-      selfEmployed: "Self-employed",
+      selfEmployed: "Available for freelance work",
       bilingual: "Persian & English",
       scroll: "Scroll to explore",
       projectsNote: "A selection of recent work",
       selectedProjects: "Selected projects.",
       recentProject: "Telegram project",
       viewProject: "View project",
-      geminiLink: "Open GeminiRedeem in Telegram",
+      geminiLink: "Open GeminiShop in Telegram",
       numberLink: "Open NumberFlare in Telegram",
       tallyLink: "View TallyDesklet on GitHub",
       tallyAlt:
@@ -100,19 +111,20 @@
         "A desktop widget for CPU, memory, disk, network speed, and daily and weekly data usage. Built for Xfce on X11. Your measurements stay on your computer.",
       viewSource: "Source & details",
       download: "Download",
-      aboutHeading: "From systems to interfaces.",
+      aboutHeading: "Systems, AI & the web.",
       profileAlt: "Saeed Taheri’s profile picture",
       profileCaption: "GitHub profile",
       summary:
-        "I’m Saeed Taheri. With a background in IT, networking, system administration, and security, I’m developing my practice in web development. I care about interfaces that feel intuitive, with security and performance built in.",
+        "I’m Saeed Taheri, an IT professional and AI & automation enthusiast. My background spans networking, system administration, and security. Today, I work with Python, AI agents, and web projects.",
       journey:
-        "I’ve spent more than 15 years exploring technology, from hardware and Linux to automation and networks. Today, I bring that experience into interface design and web development.",
+        "I’ve spent more than 15 years exploring technology, including around eight years using Linux. My current desktop is Linux Mint 22.3 with Xfce.",
       degree: "Bachelor’s degree in Computer Software",
       values: "Learning, privacy & open-source values",
-      webDevelopment: "Web development",
+      webDevelopment: "Programming & web",
       systemsNetworks: "Systems & networks",
       security: "Security",
-      securityDetails: "System hardening · Encryption · Privacy",
+      securityDetails:
+        "Troubleshooting & log analysis · System security · Privacy",
       print: "Print / save PDF",
       contactNote: "A direct line",
       enamadLink: "Verify the Enamad electronic trust seal",
@@ -120,11 +132,22 @@
       verifyEnamad: "Verify certificate",
       sayHello: "Let’s talk.",
       contactCopy:
-        "Have a project in mind, or want to talk technology? Get in touch.",
+        "Get in touch for freelance projects in IT, Linux, automation, or web development, or to collaborate on personal and open-source projects.",
       backTop: "Back to top",
       skipIntro: "Skip intro",
       replay: "Replay intro",
       introLabel: "Introducing Saeed Taheri",
+      geminiCategory: "Subscriptions & digital keys",
+      geminiDescription:
+        "A curated marketplace bringing trusted subscription and digital-key sellers together, helping customers choose and buy with more confidence.",
+      numberCategory: "Virtual-number storefront",
+      numberDescription:
+        "Virtual numbers for customers, with cryptocurrency and credit-card payment options.",
+      workflow:
+        "I combine AI-assisted troubleshooting with system log analysis to investigate errors and security issues. My automations cover Telegram agents, email replies, scheduled GitHub tasks, and website support.",
+      aiAutomation: "AI & automation",
+      linuxExperience: "Around 8 years with Linux",
+      currentDesktop: "Linux Mint 22.3 · Xfce",
     },
   };
 

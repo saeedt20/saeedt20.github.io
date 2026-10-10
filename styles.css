@@ -582,6 +582,12 @@ main:focus {
   color: var(--muted);
   margin-top: 4px;
 }
+.project-caption .project-description {
+  max-width: 560px;
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.9;
+}
 .project-text-link {
   display: inline-flex;
   gap: 12px;
@@ -2229,5 +2235,55 @@ main:focus {
     grid-row: 2;
     max-width: 190px;
     justify-self: start;
+  }
+}
+
+/* Keep the expanded profile readable on a single A4 page. */
+@media print {
+  .project:not(.project-feature) .project-caption {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+  }
+  .contact-inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 8px;
+  }
+  .contact-section .section-top {
+    display: none;
+  }
+  .contact-heading,
+  [dir="ltr"] .contact-heading,
+  .contact-bottom {
+    padding: 0;
+    border: 0;
+  }
+  .email-link {
+    margin-top: 0;
+  }
+  .project-caption .project-description {
+    max-width: none;
+    font-size: 9pt;
+    line-height: 1.6;
+    margin-top: 4px;
+  }
+  .about-summary {
+    font-size: 9.5pt;
+    line-height: 1.6;
+  }
+  .about-journey {
+    line-height: 1.5;
+    margin-top: 6px;
+  }
+  .about-facts {
+    flex-direction: row;
+    gap: 6px 16px;
+    margin-top: 8px;
+    padding-top: 6px;
+  }
+  .expertise-row {
+    padding-block: 4px;
   }
 }
