@@ -79,7 +79,7 @@
     document.getElementById('site-favicon').href = logoPath;
     document.getElementById('professional-title').textContent = translated(data.title);
     document.getElementById('summary').textContent = translated(data.summary);
-    document.title = `${translated(data.name)} — ${strings.personalProfile}`;
+    document.title = `${translated(data.name)} — ${strings.personalProfile} | 73841814`;
     document.querySelector('meta[name="description"]').content = translated(data.summary);
     const projects = document.getElementById('project-list');
     projects.replaceChildren();
