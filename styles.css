@@ -506,8 +506,8 @@ main:focus {
   transform: rotate(45deg);
 }
 .project-gemini {
-  background: #30372d;
-  color: #dae6bd;
+  background: #000;
+  color: #f2eee6;
 }
 .gemini-composition {
   position: absolute;
@@ -516,49 +516,12 @@ main:focus {
   place-items: center;
   transition: transform 1.1s var(--ease);
 }
-.gemini-orbit {
-  position: absolute;
-  width: 83%;
-  height: 90%;
-  stroke: #7c9267;
-  stroke-width: 0.65;
-}
-.gemini-orbit circle {
-  fill: #d8e4bc;
-  stroke: none;
-}
-.gemini-letter {
-  position: absolute;
-  top: 50%;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 190px;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: -0.1em;
-  transform: translateY(-50%);
-}
-.gemini-letter.g {
-  left: 23%;
-  font-style: italic;
-}
-.gemini-letter.r {
-  left: 48%;
-  top: 58%;
-  color: #b7caa0;
-}
-.gemini-plus {
-  position: absolute;
-  right: 16%;
-  top: 21%;
-  font-size: 33px;
-  font-weight: 400;
-}
 .project-image:hover .gemini-composition {
-  transform: scale(1.035) rotate(-3deg);
+  transform: scale(1.035);
 }
 .project-numberflare {
-  background: #dbc9bc;
-  color: #45352e;
+  background: #000;
+  color: #f2eee6;
 }
 .number-composition {
   position: absolute;
@@ -566,15 +529,17 @@ main:focus {
   overflow: hidden;
   transition: transform 1.1s var(--ease);
 }
+.project-background,
+.number-grid {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .number-grid {
   position: absolute;
   inset: 0;
-  opacity: 0.2;
-  background-image:
-    linear-gradient(#967a65 1px, transparent 1px),
-    linear-gradient(90deg, #967a65 1px, transparent 1px);
-  background-size: 50px 50px;
-  mask-image: radial-gradient(ellipse at center, #000, transparent 68%);
+  object-fit: cover;
 }
 .number-letter {
   position: absolute;
@@ -593,46 +558,11 @@ main:focus {
 .number-letter.f {
   left: 49%;
   top: 58%;
-  color: #a44f38;
+  color: #d7b8a6;
   transform: translateY(-50%) skewY(-10deg);
-}
-.number-rings {
-  position: absolute;
-  width: 330px;
-  height: 240px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-25deg);
-}
-.number-rings span {
-  position: absolute;
-  inset: 0;
-  border: 1px solid #b3947e;
-  border-radius: 50%;
-}
-.number-rings span:nth-child(2) {
-  inset: 11px;
-}
-.number-rings span:nth-child(3) {
-  inset: 22px;
-}
-.number-rings span:nth-child(4) {
-  inset: 33px;
-}
-.number-star {
-  position: absolute;
-  top: 25%;
-  right: 19%;
-  width: 50px;
-  transform: rotate(15deg);
-  color: #a44f38;
-  transition: transform 1.1s var(--ease);
 }
 .project-image:hover .number-composition {
   transform: scale(1.04);
-}
-.project-image:hover .number-star {
-  transform: rotate(105deg);
 }
 .project-caption {
   display: flex;
@@ -1282,9 +1212,6 @@ main:focus {
   .project-image {
     height: 340px;
   }
-  .gemini-letter {
-    font-size: 160px;
-  }
   .number-letter {
     font-size: 145px;
   }
@@ -1468,32 +1395,11 @@ main:focus {
     height: 26px;
     font-size: 16px;
   }
-  .gemini-letter {
-    font-size: 133px;
-  }
-  .gemini-letter.g {
-    left: 15%;
-  }
-  .gemini-letter.r {
-    left: 48%;
-  }
   .number-letter {
     font-size: 122px;
   }
   .number-letter.n {
     left: 18%;
-  }
-  .number-rings {
-    width: 230px;
-    height: 175px;
-  }
-  .number-star {
-    width: 32px;
-    right: 15%;
-  }
-  .gemini-plus {
-    font-size: 22px;
-    right: 12%;
   }
   .project-caption {
     gap: 10px;
@@ -1708,25 +1614,11 @@ main:focus {
   .project-feature {
     grid-column: auto;
   }
-  .gemini-letter {
-    font-size: 175px;
-  }
-  .gemini-letter.g {
-    left: 23%;
-  }
   .number-letter {
     font-size: 157px;
   }
   .number-letter.n {
     left: 25%;
-  }
-  .number-rings {
-    width: 290px;
-    height: 220px;
-  }
-  .number-star {
-    width: 42px;
-    right: 18%;
   }
   .project-image-top,
   .project-image-bottom {
@@ -1845,9 +1737,6 @@ main:focus {
   }
   .project-image {
     height: 300px;
-  }
-  .gemini-letter {
-    font-size: 148px;
   }
   .number-letter {
     font-size: 140px;

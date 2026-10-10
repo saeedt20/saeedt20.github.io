@@ -16,7 +16,7 @@ The personal website of **Saeed Taheri (سعید طاهری)**. A background in 
 
 ## Website features
 
-- An editorial layout with oversized typography, an original computer workstation illustration, and custom project artwork.
+- An editorial layout with oversized typography, an original computer workstation illustration, and project artwork with locally hosted WebP images.
 - A short animated introduction on the first visit of a browser session, with skip, Escape, and replay controls.
 - Scroll reveals and subtle artwork motion that respect the visitor’s reduced-motion preference.
 - Persian and English content with right-to-left and left-to-right layouts.
@@ -32,14 +32,14 @@ The personal website of **Saeed Taheri (سعید طاهری)**. A background in 
 
 HTML5, CSS, and vanilla JavaScript. The website is static and requires no package installation or build step.
 
-| File         | Purpose                                                                                       |
-| ------------ | --------------------------------------------------------------------------------------------- |
-| `index.html` | Page structure and Persian fallback content                                                   |
-| `main.js`    | Localized content, language switching, intro lifecycle, scroll reveals, and printing          |
-| `styles.css` | Layout, typography, responsive rules, and print styles                                        |
-| `assets/`    | Favicons, local fonts, workstation artwork, and WebP profile, Enamad, and TallyDesklet images |
-| `CNAME`      | Custom domain configuration for `saeedt.ir`                                                   |
-| `_headers`   | Response-header configuration for compatible static hosts                                     |
+| File         | Purpose                                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------------------- |
+| `index.html` | Page structure and Persian fallback content                                                           |
+| `main.js`    | Localized content, language switching, intro lifecycle, scroll reveals, and printing                  |
+| `styles.css` | Layout, typography, responsive rules, and print styles                                                |
+| `assets/`    | Favicons, local fonts, workstation artwork, and WebP project images, profile picture, and Enamad icon |
+| `CNAME`      | Custom domain configuration for `saeedt.ir`                                                           |
+| `_headers`   | Response-header configuration for compatible static hosts                                             |
 
 ## Preview locally
 
@@ -69,7 +69,7 @@ The Vazirmatn font license is included in [`assets/fonts/OFL.txt`](assets/fonts/
 
 ## Content and assets
 
-The profile introduction and technical background are adapted from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture and Enamad icon are supplied by the owner. All raster images are served locally in WebP format. The computer workstation illustration and Telegram project artwork are original SVG/CSS compositions.
+The profile introduction and technical background are adapted from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture, Enamad icon, and GeminiRedeem and NumberFlare backgrounds are supplied by the owner. All raster images are served locally in WebP format. The computer workstation illustration is an original SVG composition.
 
 ## Contact
 
