@@ -1791,7 +1791,8 @@ main:focus {
     text-align: right;
   }
   .tally-art-preview img {
-    width: 235px;
+    width: auto;
+    max-width: min(100%, 235px);
   }
   .tally-art-preview {
     padding-block: 0 3px;
