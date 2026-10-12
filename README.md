@@ -1,29 +1,30 @@
 # Saeed Taheri — Personal Website
 
-The personal website of **Saeed Taheri (سعید طاهری)**. An IT professional and AI & automation enthusiast with around eight years of Linux experience, currently using Linux Mint 22.3 with Xfce. His work brings together systems, Python, AI agents, automation, and web development. This bilingual portfolio presents that background, recent projects, and availability for freelance work and personal or open-source collaboration.
+The personal website of **Saeed Taheri (سعید طاهری)**. Linux desktop tools, Android apps, Python and practical automation, supported by a background in IT and systems. This bilingual portfolio presents public projects and availability for freelance work and open-source collaboration.
 
 **[Visit saeedt.ir](https://saeedt.ir/)**
 
-وب‌سایت شخصی سعید طاهری؛ فناوری اطلاعات، حدود ۸ سال تجربهٔ لینوکس، هوش مصنوعی و اتوماسیون، پایتون و وب. معرفی، پروژه‌ها و همکاری فریلنس و متن‌باز، به فارسی و انگلیسی.
+وب‌سایت شخصی سعید طاهری؛ ابزارهای دسکتاپ لینوکس، اپ‌های اندروید، پایتون و اتوماسیون. معرفی پروژه‌های عمومی و همکاری فریلنس و متن‌باز، به فارسی و انگلیسی.
 
 ## Featured projects
 
 | Project          | Overview                                                                                                                                                    | Link                                                                  |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| **TallyDesklet** | Native Linux desktop widget for CPU, memory, disk, network speed, and daily/weekly data usage; built with Python, GTK 3, Cairo, and psutil for Xfce on X11. | [Source and details](https://github.com/saeedt20/tallydesklet)        |
-| **Roozlet**      | Compact offline Persian calendar for Linux Mint/Xfce; bilingual controls, independent digits and verified Iranian holidays for 1405.                        | [Source and .deb releases](https://github.com/saeedt20/Roozlet)       |
-| **CouchZap**     | Lightweight IPTV player for Android TV boxes and phones; Kotlin/Media3 playback, local playlist import and remote/touch navigation.                         | [Source and build instructions](https://github.com/saeedt20/couchzap) |
+| **TallyDesklet · v0.3.1** | Native GTK system monitor: CPU, RAM, disk, network and daily/weekly usage. Six themes, compact mode and Persian/English layouts for Xfce on X11. | [Source and .deb releases](https://github.com/saeedt20/TallyDesklet) |
+| **Roozlet · v0.4.1** | Offline Persian calendar with seasonal artwork, search, personal notes and optional reminders. Persian/English layouts; verified annual occasions and Iranian holidays for 1405. | [Source and .deb releases](https://github.com/saeedt20/Roozlet) |
+| **CouchZap** | Kotlin/Media3 IPTV player for Android TV boxes and phones, with local playlist import and remote/touch navigation. Bring your own playlist. | [Source and build instructions](https://github.com/saeedt20/CouchZap) |
 | **GeminiShop**   | Curated marketplace bringing trusted subscription and digital-key sellers together.                                                                         | [Open in Telegram](https://t.me/GeminiRedeemBot)                      |
 | **NumberFlare**  | Virtual-number storefront with cryptocurrency and credit-card payments.                                                                                     | [Open in Telegram](https://t.me/NumberFlareBot)                       |
 
 ## Website features
 
-- An editorial layout with oversized typography, an original computer workstation illustration, and project artwork with locally hosted WebP images.
+- An editorial ivory/sage layout with a polished transparent workstation illustration, responsive WebP sources and current native GTK project previews.
 - A short animated introduction on the first visit of a browser session, with skip, Escape, and replay controls.
-- Scroll reveals and subtle artwork motion that respect the visitor’s reduced-motion preference.
+- Scroll reveals and a restrained hover effect that respect the visitor’s reduced-motion preference; the hero does not animate continuously.
 - Persian and English content with right-to-left and left-to-right layouts.
 - Language selection saved locally when browser storage is available.
-- Responsive layouts for desktop and mobile screens.
+- Responsive layouts, explicit image dimensions and a high-priority hero image. Project images load lazily.
+- Clear project versions, source links, Linux package downloads and a direct contact link in the hero.
 - Print and PDF export through the browser, with dedicated A4 print styles.
 - Keyboard navigation, visible focus indicators, a skip-to-content link, and reduced-motion support.
 - Locally hosted Vazirmatn fonts and language-specific favicons.
@@ -42,6 +43,7 @@ HTML5, CSS, and vanilla JavaScript. The website is static and requires no packag
 | `assets/`    | Favicons, local fonts, workstation artwork, and WebP project images, profile picture, and Enamad icon |
 | `CNAME`      | Custom domain configuration for `saeedt.ir`                                                           |
 | `_headers`   | Response-header configuration for compatible static hosts                                             |
+| `docs/CONTENT_AND_ASSETS.md` | Public content sources, current project versions and artwork provenance |
 
 ## Preview locally
 
@@ -71,7 +73,13 @@ The Vazirmatn font license is included in [`assets/fonts/OFL.txt`](assets/fonts/
 
 ## Content and assets
 
-The introduction, experience, AI workflows, and marketplace descriptions reflect the owner’s background. Earlier technical context is drawn from [Saeed’s GitHub profile README](https://github.com/saeedt20/saeedt20). TallyDesklet’s description and interface preview come from its [project documentation](https://github.com/saeedt20/tallydesklet). The preview uses illustrative example data. The profile picture, Enamad icon, and GeminiShop and NumberFlare backgrounds are supplied by the owner. The Roozlet preview is an actual application screenshot served locally as PNG. CouchZap uses its original app-icon geometry in an SVG brand composition. Other raster images are served locally in WebP format. The computer workstation illustration is an original SVG composition.
+Content was checked against public project READMEs and published releases on **2026-10-12**. Project versions are static editorial snapshots; download links lead to the current release. There is no runtime GitHub API dependency. When a project changes, update both language dictionaries, the HTML fallback, version labels and its screenshot together.
+
+The TallyDesklet and Roozlet previews show the native GTK applications using example readings or an isolated example profile. They are not photographs of a user’s live desktop. The new hero was generated from the owner-supplied workstation reference and encoded as transparent WebP in two resolutions. The original SVG remains available. Details and the generation prompt are in [Content and assets](docs/CONTENT_AND_ASSETS.md).
+
+The profile picture, Enamad icon and Telegram project backgrounds are owner-supplied. CouchZap retains its original SVG app-icon composition. Vazirmatn is hosted locally under its included OFL license. The site intentionally omits residence-location details and uses only public project information.
+
+`_headers` is retained for compatible hosts; GitHub Pages does not apply that file as a custom-header configuration.
 
 ## Contact
 

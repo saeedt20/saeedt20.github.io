@@ -6,16 +6,16 @@
     <meta name="theme-color" content="#f0efe9" />
     <meta
       name="description"
-      content="سعید طاهری؛ فناوری اطلاعات، حدود ۸ سال تجربهٔ لینوکس، هوش مصنوعی و اتوماسیون، پایتون و توسعهٔ وب. آمادهٔ همکاری فریلنس و متن‌باز."
+      content="پروژه‌های سعید طاهری: Roozlet، تقویم فارسی لینوکس؛ TallyDesklet، پایش سیستم؛ CouchZap، پخش‌کنندهٔ اندروید. ابزارهای متن‌باز، پایتون و اتوماسیون."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Saeed Taheri — Personal website" />
+    <meta property="og:title" content="سعید طاهری — ابزارهای لینوکس و اتوماسیون" />
     <meta
       property="og:description"
-      content="Saeed Taheri: IT, around eight years with Linux, AI and automation, Python, and web development. Available for freelance and open-source collaboration."
+      content="پروژه‌های سعید طاهری: Roozlet، تقویم فارسی لینوکس؛ TallyDesklet، پایش سیستم؛ CouchZap، پخش‌کنندهٔ اندروید. ابزارهای متن‌باز، پایتون و اتوماسیون."
     />
     <meta property="og:url" content="https://saeedt.ir/" />
-    <title>سعید طاهری — وب‌سایت شخصی</title>
+    <title>سعید طاهری — ابزارهای لینوکس و اتوماسیون</title>
     <link rel="canonical" href="https://saeedt.ir/" />
     <link
       id="site-favicon"
@@ -94,7 +94,7 @@
           <span class="eyebrow"
             ><i class="status-dot" aria-hidden="true"></i
             ><span data-i18n="independent">فعالیت مستقل</span></span
-          ><span class="edition" dir="ltr">PERSONAL INDEX — 03</span>
+          ><span class="edition" dir="ltr">PERSONAL INDEX — 04</span>
         </div>
         <div class="hero-grid">
           <div class="hero-type">
@@ -108,13 +108,16 @@
             <div class="hero-description">
               <span class="hero-small-rule" aria-hidden="true"></span>
               <p data-i18n="heroNote">
-                فناوری اطلاعات و لینوکس؛ هوش مصنوعی، اتوماسیون و وب.
+                ابزارهای کاربردی برای لینوکس و اندروید می‌سازم؛ با پایتون و هوش مصنوعی، کارهای روزمره را خودکار می‌کنم.
               </p>
             </div>
-            <a class="round-link hero-link" href="#projects"
-              ><span class="round-arrow" aria-hidden="true">↙</span
-              ><span data-i18n="explore">مرور پروژه‌ها</span></a
-            >
+            <div class="hero-actions">
+              <a class="round-link hero-link" href="#projects"
+                ><span class="round-arrow" aria-hidden="true">↙</span
+                ><span data-i18n="explore">مرور پروژه‌ها</span></a
+              >
+              <a class="hero-contact" href="#contact" data-i18n="getInTouch">برای همکاری</a>
+            </div>
           </div>
           <div class="hero-art" aria-hidden="true" dir="ltr">
             <div class="art-topline">
@@ -123,10 +126,14 @@
             <div class="illustration-wrap">
               <img
                 class="hero-illustration"
-                src="assets/workstation.svg"
+                src="assets/workstation-hero.webp"
+                srcset="assets/workstation-hero-small.webp 615w, assets/workstation-hero.webp 1230w"
+                sizes="(max-width: 520px) 280px, (max-width: 760px) 40vw, 44vw"
                 alt=""
-                width="600"
-                height="620"
+                width="1230"
+                height="1278"
+                fetchpriority="high"
+                decoding="async"
               />
             </div>
             <div class="art-bottomline">
@@ -159,7 +166,7 @@
             ><span dir="ltr">01 /</span
             ><span data-i18n="projects">پروژه‌ها</span></span
           ><span class="section-note" data-i18n="projectsNote"
-            >نگاهی به پروژه‌های اخیر</span
+            >ابزارهای متن‌باز و پروژه‌های تلگرامی</span
           >
         </div>
         <div class="section-heading reveal">
@@ -172,7 +179,7 @@
           <article class="project project-feature reveal">
             <a
               class="tally-art"
-              href="https://github.com/saeedt20/tallydesklet"
+              href="https://github.com/saeedt20/TallyDesklet"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="مشاهده TallyDesklet در گیت‌هاب"
@@ -188,25 +195,24 @@
               </div>
               <div class="tally-art-preview">
                 <img
-                  src="assets/tallydesklet-dark.webp"
-                  width="640"
-                  height="660"
+                  src="assets/tallydesklet-v031.webp"
+                  width="680"
+                  height="860"
                   loading="lazy"
+                  decoding="async"
                   alt="پیش‌نمایش رابط TallyDesklet با داده‌های نمونه"
                   data-i18n-alt="tallyAlt"
                 /><span class="tally-preview-note" data-i18n="tallyPreview"
-                  >پیش‌نمایش رابط با داده‌های نمونه</span
+                  >رابط GTK · داده‌های نمایشی</span
                 >
               </div>
             </a>
             <div class="project-caption tally-caption">
               <div>
-                <h3 dir="ltr">TallyDesklet</h3>
+                <div class="project-title"><h3 dir="ltr">TallyDesklet</h3><span class="project-version" dir="ltr">v0.3.1</span></div>
                 <p data-i18n="desktopWidget">ابزار دسکتاپ لینوکس</p>
                 <p class="project-description" data-i18n="tallyDescription">
-                  ویجت دسکتاپ برای نمایش مصرف پردازنده، حافظه، دیسک، سرعت شبکه و
-                  مصرف روزانه و هفتگی اینترنت. ساخته‌شده برای Xfce روی X11؛
-                  داده‌ها روی دستگاه شما می‌مانند.
+                  مصرف پردازنده، رم، دیسک و سرعت شبکه را یک‌جا ببینید؛ همراه با مصرف روزانه و هفتگی اینترنت. شش تم قابل انتخاب، رابط فارسی و انگلیسی و حالت جمع‌وجور برای Xfce روی X11. داده‌ها روی دستگاه شما می‌مانند.
                 </p>
                 <div class="project-tags">
                   <span>PYTHON</span><span>GTK 3</span><span>CAIRO</span
@@ -216,17 +222,17 @@
               <div class="project-links">
                 <a
                   class="project-text-link"
-                  href="https://github.com/saeedt20/tallydesklet"
+                  href="https://github.com/saeedt20/TallyDesklet"
                   target="_blank"
                   rel="noopener noreferrer"
                   ><span data-i18n="viewSource">کد و جزئیات</span
                   ><span aria-hidden="true">↗</span></a
                 ><a
                   class="project-text-link"
-                  href="https://github.com/saeedt20/tallydesklet/releases/latest"
+                  href="https://github.com/saeedt20/TallyDesklet/releases/latest"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><span data-i18n="download">دانلود</span
+                  ><span data-i18n="download">دانلود بستهٔ .deb</span
                   ><span aria-hidden="true">↓</span></a
                 >
               </div>
@@ -246,16 +252,16 @@
               </div>
               <div class="roozlet-preview">
                 <img
-                  src="assets/roozlet-card-fa-dark.png"
+                  src="assets/roozlet-v041-autumn.webp"
                   width="320"
-                  height="208"
+                  height="236"
                   loading="lazy"
                   decoding="async"
-                  alt="کارت واقعی تقویم فارسی Roozlet با پوستهٔ تیره"
+                  alt="ویجت Roozlet با منظرهٔ پاییزی و تاریخ شمسی در مرکز"
                   data-i18n-alt="roozletAlt"
                 />
                 <span class="app-preview-note" data-i18n="roozletPreview"
-                  >رابط واقعی برنامه · Linux Mint Xfce</span
+                  >رابط GTK · نمونهٔ پاییز</span
                 >
               </div>
               <div class="project-image-bottom" aria-hidden="true">
@@ -264,14 +270,12 @@
             </a>
             <div class="project-caption">
               <div>
-                <h3 dir="ltr">Roozlet</h3>
+                <div class="project-title"><h3 dir="ltr">Roozlet</h3><span class="project-version" dir="ltr">v0.4.1</span></div>
                 <p data-i18n="roozletCategory">
                   تقویم فارسی برای دسکتاپ لینوکس
                 </p>
                 <p class="project-description" data-i18n="roozletDescription">
-                  تقویم فارسی آفلاین برای لینوکس، با ویجت کوچک، نمایش ماهانه،
-                  رابط فارسی و انگلیسی و انتخاب مستقل ارقام. مناسبت‌ها و تعطیلات
-                  رسمی سال ۱۴۰۵ با تقویم نهایی دانشگاه تهران بررسی شده‌اند.
+                  تقویم فارسی آفلاین با چهار فصل، تاریخ شمسی در مرکز ویجت و نمای ماهانه. جستجوی تاریخ و مناسبت، یادداشت شخصی و یادآور با اعلان اختیاری؛ رابط فارسی و انگلیسی. پوشش تأییدشدهٔ مناسبت‌ها و تعطیلات رسمی برای سال ۱۴۰۵ است.
                 </p>
                 <div class="project-tags">
                   <span>PYTHON</span><span>GTK 3</span><span>CAIRO</span>
@@ -291,7 +295,7 @@
                   href="https://github.com/saeedt20/Roozlet/releases/latest"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><span data-i18n="download">دانلود</span
+                  ><span data-i18n="download">دانلود بستهٔ .deb</span
                   ><span aria-hidden="true">↓</span></a
                 >
               </div>
@@ -300,7 +304,7 @@
           <article class="project project-app reveal">
             <a
               class="project-image project-couchzap"
-              href="https://github.com/saeedt20/couchzap"
+              href="https://github.com/saeedt20/CouchZap"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="مشاهده CouchZap در گیت‌هاب"
@@ -343,10 +347,10 @@
               <div class="project-links">
                 <a
                   class="project-text-link"
-                  href="https://github.com/saeedt20/couchzap"
+                  href="https://github.com/saeedt20/CouchZap"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><span data-i18n="viewSource">کد و جزئیات</span
+                  ><span data-i18n="buildSource">کد و راهنمای ساخت</span
                   ><span aria-hidden="true">↗</span></a
                 >
               </div>
@@ -484,12 +488,10 @@
         </div>
         <div class="about-content reveal">
           <h2 id="about-title" data-i18n="aboutHeading">
-            سیستم‌ها، هوش مصنوعی و وب.
+            از سیستم‌ها تا نرم‌افزار کاربردی.
           </h2>
           <p class="about-summary" data-i18n="summary">
-            من سعید طاهری هستم؛ فعال حوزهٔ فناوری اطلاعات و علاقه‌مند به هوش
-            مصنوعی و اتوماسیون. پیشینه‌ام در شبکه، مدیریت سیستم و امنیت است و
-            امروز با پایتون، عامل‌های هوش مصنوعی و پروژه‌های وب کار می‌کنم.
+            من سعید طاهری هستم؛ پیشینه‌ام در فناوری اطلاعات، شبکه و مدیریت سیستم است. اکنون ابزارهای دسکتاپ لینوکس را با Python و GTK و اپ اندروید را با Kotlin می‌سازم و از هوش مصنوعی برای توسعه و اتوماسیون کمک می‌گیرم. Roozlet، TallyDesklet و CouchZap نمونه‌های این مسیر هستند.
           </p>
           <p class="about-journey" data-i18n="journey">
             بیش از ۱۵ سال است که فناوری را دنبال می‌کنم و حدود ۸ سال تجربهٔ کار
@@ -511,6 +513,10 @@
             ><span data-i18n="values">یادگیری مستمر، حریم خصوصی و متن‌باز</span>
           </div>
           <div class="expertise">
+            <div class="expertise-row">
+              <span data-i18n="nativeApps">اپ‌های لینوکس و اندروید</span>
+              <span>Python · GTK / Cairo · Kotlin / Media3</span>
+            </div>
             <div class="expertise-row">
               <span data-i18n="aiAutomation">هوش مصنوعی و اتوماسیون</span>
               <span>AI agents · Telegram bots · Email · Cron</span>
