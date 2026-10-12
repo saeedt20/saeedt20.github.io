@@ -308,7 +308,7 @@ main:focus {
   margin-top: 13px;
 }
 .hero-description p {
-  max-width: 310px;
+  max-width: 365px;
   font-size: 14px;
   color: var(--muted);
   line-height: 1.9;
@@ -320,7 +320,23 @@ main:focus {
   font-size: 12px;
 }
 .hero-link {
-  margin-top: 34px;
+  margin-top: 0;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px 28px;
+  margin-top: 30px;
+}
+.hero-contact {
+  font-size: 12px;
+  padding-block: 12px;
+  border-bottom: 1px solid var(--line);
+  transition: border-color 0.25s;
+}
+.hero-contact:hover {
+  border-color: var(--clay);
 }
 .round-arrow {
   display: grid;
@@ -375,10 +391,15 @@ main:focus {
 .hero-illustration {
   width: 100%;
   height: auto;
-  animation: device-float 10s ease-in-out infinite;
+  transition: transform 0.6s var(--ease);
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .hero-art:hover .hero-illustration {
+    transform: translateY(-5px);
+  }
 }
 .art-bottomline {
-  margin-top: -12px;
+  margin-top: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid var(--line);
 }
@@ -770,8 +791,9 @@ main:focus {
   min-width: 0;
 }
 .tally-art-preview img {
-  width: 320px;
+  width: auto;
   max-width: 100%;
+  max-height: 350px;
   height: auto;
   box-shadow: 0 22px 35px -22px #32423369;
   border-radius: 17px;
@@ -804,6 +826,20 @@ main:focus {
     sans-serif;
   letter-spacing: 0.04em;
   color: var(--muted);
+}
+.project-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.project-version {
+  font: 11px Arial, sans-serif;
+  color: var(--ink);
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  white-space: nowrap;
 }
 .tally-caption .project-text-link {
   align-self: center;
@@ -1315,7 +1351,13 @@ main:focus {
     padding: 30px 35px;
   }
   .tally-art-preview img {
-    width: 290px;
+    width: auto;
+    max-height: 330px;
+  }
+  .roozlet-preview img {
+    width: auto;
+    max-width: 100%;
+    max-height: 180px;
   }
   .tally-wordmark {
     font-size: 58px;
@@ -1408,8 +1450,11 @@ main:focus {
     width: 18px;
     margin-top: 11px;
   }
-  .hero-link {
+  .hero-actions {
     margin-top: 24px;
+    gap: 14px 22px;
+  }
+  .hero-link {
     gap: 10px;
     font-size: 10px;
   }
@@ -1515,7 +1560,8 @@ main:focus {
     font-size: 47px;
   }
   .tally-art-preview img {
-    width: 245px;
+    width: auto;
+    max-height: 280px;
   }
   .tally-platform,
   .tally-topline {
@@ -1691,7 +1737,7 @@ main:focus {
     max-width: none;
     margin-top: 21px;
   }
-  .hero-link {
+  .hero-actions {
     margin-top: 20px;
   }
   .project-grid {
@@ -1896,7 +1942,7 @@ main:focus {
   .language-switch,
   .hero-art,
   .hero-eyebrow,
-  .hero-link,
+  .hero-actions,
   .hero-footer,
   .project-image,
   .tally-art,
