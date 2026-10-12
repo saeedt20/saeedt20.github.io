@@ -65,6 +65,8 @@ Edit the `fa` and `en` dictionaries inside the `copy` object in `main.js` to upd
 
 Keep the Persian fallback content in `index.html` in sync with those dictionaries. Project destinations and contact links are defined directly in the HTML. Layout, motion, and print rules live in `styles.css`.
 
+The stylesheet and script URLs in `index.html` include content-hash version parameters. After editing either file, refresh its `?v=` value with the first 12 characters of `git hash-object styles.css` or `git hash-object main.js`. This keeps cached assets in sync with the current HTML.
+
 ## Deployment
 
 The site is published through **GitHub Pages** from the root of the `main` branch at **[saeedt.ir](https://saeedt.ir/)**. Push updates to `main` to trigger a deployment. Keep `CNAME` in the repository to retain the custom domain configuration.
