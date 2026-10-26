@@ -19,11 +19,12 @@ The personal website of **Saeed Taheri (سعید طاهری)**. Linux desktop to
 
 ## Website features
 
-- An editorial ivory/sage layout with a polished transparent workstation illustration, responsive WebP sources and current native GTK project previews.
-- A short animated introduction on the first visit of a browser session, with skip, Escape, and replay controls.
+- An editorial ivory/sage layout with a transparent workstation illustration and six full-width project showcases sharing one responsive layout.
+- Native GTK previews for TallyDesklet and Roozlet, a native Android TV preview for CouchZap, and the existing illustration/brand artwork for the other projects.
+- The page opens immediately. An optional animated introduction remains available through the replay control, with skip and Escape support.
 - Scroll reveals and a restrained hover effect that respect the visitor’s reduced-motion preference; the hero does not animate continuously.
 - Persian and English content with right-to-left and left-to-right layouts.
-- Language selection saved locally when browser storage is available.
+- Shareable language and project links, such as [`?lang=en#roozlet`](https://saeedt.ir/?lang=en#roozlet), and a quick project index. An explicit URL language takes priority over the locally saved choice.
 - Responsive layouts, explicit image dimensions and a high-priority hero image. Project images load lazily.
 - Current project versions, source links, Linux package and Android APK downloads, explicit maintained-fork attribution and a direct contact link in the hero.
 - Print and PDF export through the browser, with dedicated A4 print styles.
@@ -31,6 +32,7 @@ The personal website of **Saeed Taheri (سعید طاهری)**. Linux desktop to
 - Locally hosted Vazirmatn fonts and language-specific favicons.
 - A readable Persian page even when JavaScript is disabled.
 - A locally hosted Enamad icon linked to the official certificate verification page.
+- A local 1200 × 630 social preview image for shared links.
 
 ## Built with
 
@@ -45,6 +47,7 @@ HTML5, CSS, and vanilla JavaScript. The website is static and requires no packag
 | `CNAME`      | Custom domain configuration for `saeedt.ir`                                                           |
 | `_headers`   | Response-header configuration for compatible static hosts                                             |
 | `docs/CONTENT_AND_ASSETS.md` | Public content sources, current project versions and artwork provenance |
+| `tests/check-site.cjs` | Dependency-free checks for content, assets, language URLs and intro focus |
 
 ## Preview locally
 
@@ -59,6 +62,14 @@ python3 -m http.server 8000
 Open [localhost:8000](http://localhost:8000/) in your browser. You can also open `index.html` directly for a quick preview.
 
 To export a PDF, select **Print / save PDF** on the website, choose A4 paper, and disable the browser's headers and footers.
+
+Run the content and interaction checks with Node.js:
+
+```bash
+node tests/check-site.cjs
+```
+
+No packages are needed. Also check both languages in a browser at phone and desktop widths after changing the layout. The script uses a small DOM stand-in and does not replace visual browser checks.
 
 ## Update the content
 

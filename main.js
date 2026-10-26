@@ -27,7 +27,6 @@
       scroll: "ادامه صفحه",
       projectsNote: "ابزارهای متن‌باز و پروژه‌های تلگرامی",
       selectedProjects: "پروژه‌های منتخب.",
-      recentProject: "پروژهٔ تلگرامی",
       viewProject: "مشاهده پروژه",
       geminiLink: "مشاهده GeminiShop در تلگرام",
       numberLink: "مشاهده NumberFlare در تلگرام",
@@ -44,6 +43,8 @@
       roozletDescription:
         "تقویم فارسی آفلاین با چهار فصل، تاریخ شمسی در مرکز ویجت و نمای ماهانه. جستجوی تاریخ و مناسبت، یادداشت شخصی و یادآور با اعلان اختیاری؛ رابط فارسی و انگلیسی. پوشش تأییدشدهٔ مناسبت‌ها و تعطیلات رسمی برای سال ۱۴۰۵ است.",
       couchzapLink: "مشاهده CouchZap در گیت‌هاب",
+      couchzapAlt: "صفحهٔ آغاز CouchZap در تلویزیون اندرویدی با گزینه‌های وارد کردن پلی‌لیست و منابع عمومی",
+      couchzapPreview: "رابط اندروید TV · پیش‌نمایش انتشار",
       couchzapCategory: "پخش‌کنندهٔ IPTV برای اندروید",
       couchzapDescription:
         "پخش‌کنندهٔ متن‌باز IPTV برای تلویزیون و گوشی اندرویدی، با شش زبان، چیدمان راست‌به‌چپ فارسی و عربی، کنترل با ریموت و چرخش رابط موبایل. پلی‌لیست خودتان را وارد کنید یا منابع عمومی اختیاری را انتخاب کنید؛ بدون نیاز به حساب و بدون اشتراک همراه برنامه.",
@@ -120,7 +121,6 @@
       scroll: "Scroll to explore",
       projectsNote: "Open-source tools & Telegram projects",
       selectedProjects: "Selected projects.",
-      recentProject: "Telegram project",
       viewProject: "View project",
       geminiLink: "Open GeminiShop in Telegram",
       numberLink: "Open NumberFlare in Telegram",
@@ -138,6 +138,8 @@
       roozletDescription:
         "An offline Persian calendar with four seasons, a centered Shamsi date and a full month view. Search dates and occasions, keep personal notes and set optional reminders, in Persian or English. Verified Iranian occasion and public-holiday coverage is for 1405.",
       couchzapLink: "View CouchZap on GitHub",
+      couchzapAlt: "CouchZap Android TV welcome screen with playlist import and public-source options",
+      couchzapPreview: "Native Android TV · release preview",
       couchzapCategory: "IPTV player for Android",
       couchzapDescription:
         "Open-source IPTV for Android TV and phones, with six languages, Persian/Arabic RTL, remote controls and phone rotation. Import your own playlist or choose optional public sources. No account needed; no subscription bundled.",
@@ -208,6 +210,9 @@
   try {
     if (localStorage.getItem("resume-language") === "en") language = "en";
   } catch (_) {}
+  const requestedLanguage = new URLSearchParams(location.search).get("lang");
+  if (requestedLanguage === "fa" || requestedLanguage === "en")
+    language = requestedLanguage;
 
   function render() {
     const text = copy[language];
@@ -266,9 +271,6 @@
         document.getElementById("main").focus({ preventScroll: true });
       }
     }
-    try {
-      sessionStorage.setItem("saeed-intro-seen", "true");
-    } catch (_) {}
   }
 
   function finishIntro(immediate = false) {
@@ -309,6 +311,13 @@
       } catch (_) {}
       document.body.classList.remove("page-enter");
       render();
+      const url = new URL(location.href);
+      url.searchParams.set("lang", language);
+      try {
+        window.history.replaceState(null, "", url);
+      } catch (_) {
+        // Language switching still works when browser history is unavailable.
+      }
     });
   });
   skipIntro.addEventListener("click", () => finishIntro(true));
@@ -360,9 +369,4 @@
       event.target.closest(".reveal")?.classList.add("is-visible");
     });
   }
-  let seen = false;
-  try {
-    seen = sessionStorage.getItem("saeed-intro-seen") === "true";
-  } catch (_) {}
-  if (!seen && !reducedMotion.matches && !location.hash) playIntro();
 })();
