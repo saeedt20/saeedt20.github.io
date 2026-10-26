@@ -552,8 +552,8 @@ main:focus {
   text-align: center;
 }
 .project-couchzap {
-  background: #1d192b;
-  color: #d0bcff;
+  background: #161a18;
+  color: #b7c9ac;
 }
 .couchzap-mark {
   display: flex;
@@ -571,10 +571,10 @@ main:focus {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.055em;
-  color: #f3ecff;
+  color: #edf2e7;
 }
 .couchzap-wordmark span {
-  color: #d0bcff;
+  color: #b7c9ac;
 }
 .couchzap-tagline {
   margin-top: 16px;
@@ -591,6 +591,41 @@ main:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 22px;
+}
+.project-network {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+.project-ikevwrt {
+  background: #e7e4d9;
+  color: #3c5349;
+  height: 320px;
+}
+.ikevwrt-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.ikevwrt-wordmark {
+  font: 700 clamp(32px, 4.5vw, 54px) / 1.1 Arial, sans-serif;
+  letter-spacing: -0.055em;
+  color: var(--ink);
+}
+.ikevwrt-wordmark span {
+  color: var(--clay);
+}
+.project-status {
+  font-family: var(--font);
+}
+@media (max-width: 760px) {
+  .project-network {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
 }
 @media (min-width: 521px) and (max-width: 760px) {
   .roozlet-preview img {
@@ -1930,6 +1965,9 @@ main:focus {
   margin: 15mm;
 }
 @media print {
+  .project-network {
+    display: block;
+  }
   html {
     scroll-behavior: auto;
   }

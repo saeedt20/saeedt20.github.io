@@ -12,7 +12,8 @@ The personal website of **Saeed Taheri (سعید طاهری)**. Linux desktop to
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | **TallyDesklet · v0.3.1** | Native GTK system monitor: CPU, RAM, disk, network and daily/weekly usage. Six themes, compact mode and Persian/English layouts for Xfce on X11. | [Source and .deb releases](https://github.com/saeedt20/TallyDesklet) |
 | **Roozlet · v0.4.1** | Offline Persian calendar with seasonal artwork, search, personal notes and optional reminders. Persian/English layouts; verified annual occasions and Iranian holidays for 1405. | [Source and .deb releases](https://github.com/saeedt20/Roozlet) |
-| **CouchZap** | Kotlin/Media3 IPTV player for Android TV boxes and phones, with local playlist import and remote/touch navigation. Bring your own playlist. | [Source and build instructions](https://github.com/saeedt20/CouchZap) |
+| **CouchZap · v3.1.1** | Open-source Kotlin/Media3 IPTV player for Android TV and phones. Six languages, Persian/Arabic RTL, remote controls, phone rotation and optional public playlist sources. | [Source](https://github.com/saeedt20/CouchZap) · [Signed APK](https://github.com/saeedt20/CouchZap/releases/download/v3.1.1/CouchZap-3.1.1.apk) |
+| **IkevWrt · maintained fork** | OpenWrt IKEv2 manager with LuCI, strongSwan and domain/device policy routing. Continues dreamboxone/ikev2-openwrt; Persian RTL is inherited. No independent IkevWrt release yet. | [Source](https://github.com/saeedt20/ikevwrt) · [Upstream](https://github.com/dreamboxone/ikev2-openwrt) |
 | **GeminiShop**   | Curated marketplace bringing trusted subscription and digital-key sellers together.                                                                         | [Open in Telegram](https://t.me/GeminiRedeemBot)                      |
 | **NumberFlare**  | Virtual-number storefront with cryptocurrency and credit-card payments.                                                                                     | [Open in Telegram](https://t.me/NumberFlareBot)                       |
 
@@ -24,7 +25,7 @@ The personal website of **Saeed Taheri (سعید طاهری)**. Linux desktop to
 - Persian and English content with right-to-left and left-to-right layouts.
 - Language selection saved locally when browser storage is available.
 - Responsive layouts, explicit image dimensions and a high-priority hero image. Project images load lazily.
-- Clear project versions, source links, Linux package downloads and a direct contact link in the hero.
+- Current project versions, source links, Linux package and Android APK downloads, explicit maintained-fork attribution and a direct contact link in the hero.
 - Print and PDF export through the browser, with dedicated A4 print styles.
 - Keyboard navigation, visible focus indicators, a skip-to-content link, and reduced-motion support.
 - Locally hosted Vazirmatn fonts and language-specific favicons.
@@ -75,11 +76,11 @@ The Vazirmatn font license is included in [`assets/fonts/OFL.txt`](assets/fonts/
 
 ## Content and assets
 
-Content was checked against public project READMEs and published releases on **2026-10-12**. Project versions are static editorial snapshots; download links lead to the current release. There is no runtime GitHub API dependency. When a project changes, update both language dictionaries, the HTML fallback, version labels and its screenshot together.
+Content was checked against public project READMEs and published releases on **2026-10-26**. Project versions are static editorial snapshots. Linux downloads link to each latest release; the Android APK link is pinned to the displayed CouchZap version. IkevWrt links to source and its upstream because an independent release is not published yet. There is no runtime GitHub API dependency. When a project changes, update both language dictionaries, the HTML fallback, version labels, download links and its screenshot or brand asset together.
 
 The TallyDesklet and Roozlet previews show the native GTK applications using example readings or an isolated example profile. They are not photographs of a user’s live desktop. The new hero was generated from the owner-supplied workstation reference and encoded as transparent WebP in two resolutions. The original SVG remains available. Details and the generation prompt are in [Content and assets](docs/CONTENT_AND_ASSETS.md).
 
-The profile picture, Enamad icon and Telegram project backgrounds are owner-supplied. CouchZap retains its original SVG app-icon composition. Vazirmatn is hosted locally under its included OFL license. The site intentionally omits residence-location details and uses only public project information.
+The profile picture, Enamad icon and Telegram project backgrounds are owner-supplied. CouchZap uses the official couch-and-lightning SVG from v3.1.1; IkevWrt has a decorative inline router illustration rather than a product screenshot. Vazirmatn is hosted locally under its included OFL license. The site intentionally omits residence-location details and uses only public project information.
 
 `_headers` is retained for compatible hosts; GitHub Pages does not apply that file as a custom-header configuration.
 

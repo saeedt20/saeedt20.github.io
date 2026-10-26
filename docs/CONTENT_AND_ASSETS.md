@@ -1,6 +1,6 @@
 # Content and asset provenance
 
-Reviewed on **2026-10-12**. The website uses public GitHub documentation and release information. Residence details and private repositories are not part of its content.
+Reviewed on **2026-10-26**. The website uses public GitHub documentation and release information. Residence details and private repositories are not part of its content.
 
 ## Project content
 
@@ -8,11 +8,12 @@ Reviewed on **2026-10-12**. The website uses public GitHub documentation and rel
 | --- | --- | --- |
 | TallyDesklet | [v0.3.1](https://github.com/saeedt20/TallyDesklet/releases/tag/v0.3.1) and [README](https://github.com/saeedt20/TallyDesklet/blob/v0.3.1/README.md) | Native Python/GTK monitor; CPU, RAM, filesystem capacity, network speed and daily/weekly usage; six themes; bilingual UI; Xfce/X11. |
 | Roozlet | [v0.4.1](https://github.com/saeedt20/Roozlet/releases/tag/v0.4.1) and [README](https://github.com/saeedt20/Roozlet/blob/v0.4.1/README.md) | Offline Persian calendar; four seasons; centered Shamsi date; month view; date/occasion search; local personal notes and optional notifications. Verified annual occasion/holiday coverage is **1405 only**. |
-| CouchZap | [Public README](https://github.com/saeedt20/CouchZap#readme) | Android TV/phone player with Kotlin and Media3; local playlists; remote and touch navigation. No bundled channels or subscriptions. The CTA points to source/build instructions, not an unverified APK. |
+| CouchZap | [v3.1.1](https://github.com/saeedt20/CouchZap/releases/tag/v3.1.1) and [README](https://github.com/saeedt20/CouchZap/blob/v3.1.1/README.md) | Stable open-source Android TV/phone player with Kotlin and Media3; six languages; Persian/Arabic RTL; local/URL playlists and opt-in public catalogs; remote controls and phone rotation. No account required or subscription bundled. The APK CTA points to the displayed official signed release. |
+| IkevWrt | [Public README at 978d609](https://github.com/saeedt20/ikevwrt/blob/978d6096a024d5e1420af2a14d1ded41db2f1d80/README.md) and [upstream](https://github.com/dreamboxone/ikev2-openwrt) | Maintained continuation/fork of the OpenWrt IKEv2 manager; LuCI, strongSwan and policy routing by domain/device. Persian RTL was inherited from upstream, not newly authored for this fork. No independent IkevWrt release is published, so only source/upstream links are offered. Older template forks are not presented as original projects. |
 | Background | [Public profile README](https://github.com/saeedt20/saeedt20#readme) | IT and systems background, around eight years of Linux experience, education, AI-assisted troubleshooting and automation. |
 | Telegram projects | Existing owner-supplied public descriptions | GeminiShop and NumberFlare descriptions and destinations are retained; no private repository content is used. |
 
-Versions printed on the page describe the screenshots and reviewed feature set. The `.deb` links use each project's `releases/latest` page so visitors can find installation instructions and checksums alongside the package.
+Versions printed on the page describe the reviewed release and feature set. The `.deb` links use each project's `releases/latest` page so visitors can find installation instructions and checksums alongside the package. CouchZap's APK URL is pinned to v3.1.1 to match its badge; its published SHA-256 is `3cccfe433b6fe1d898b3f59d57c7704c384fa1f079164d298b2d93161bbb3f54`. TallyDesklet v0.3.1 and Roozlet v0.4.1 remain current and retain their matching native previews.
 
 ## Native application previews
 
@@ -38,7 +39,7 @@ Generated on **2026-10-12** with OpenAI's image-generation tool, using the owner
 
 ## Other assets
 
-The portrait, Enamad icon and Telegram project backgrounds are supplied by the owner. The Enamad link is the existing official certificate destination; it is not presented as a certification of every featured application. CouchZap uses its own SVG icon geometry. Local Vazirmatn fonts retain the license at [`assets/fonts/OFL.txt`](../assets/fonts/OFL.txt).
+The portrait, Enamad icon and Telegram project backgrounds are supplied by the owner. The Enamad link is the existing official certificate destination; it is not presented as a certification of every featured application. `assets/couchzap-icon.svg` is copied unchanged from CouchZap's [official v3.1.1 brand SVG](https://github.com/saeedt20/CouchZap/blob/v3.1.1/docs/brand/couchzap.svg); the project panel follows that release's sage/charcoal colors. IkevWrt's inline SVG is a decorative router/lock illustration, not a screenshot or a claim about tested hardware. Local Vazirmatn fonts retain the license at [`assets/fonts/OFL.txt`](../assets/fonts/OFL.txt).
 
 ## Maintenance
 

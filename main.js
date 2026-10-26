@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  // Content is based on the owner’s background and project descriptions, plus the TallyDesklet, Roozlet and CouchZap repositories.
+  // Project content is checked against public repositories and releases; see docs/CONTENT_AND_ASSETS.md.
   const copy = {
     fa: {
       name: "سعید طاهری",
@@ -9,7 +9,7 @@
       lastName: "طاهری",
       title: "سعید طاهری — ابزارهای لینوکس و اتوماسیون",
       description:
-        "پروژه‌های سعید طاهری: Roozlet، تقویم فارسی لینوکس؛ TallyDesklet، پایش سیستم؛ CouchZap، پخش‌کنندهٔ اندروید. ابزارهای متن‌باز، پایتون و اتوماسیون.",
+        "پروژه‌های سعید طاهری: Roozlet، تقویم فارسی؛ TallyDesklet، پایش لینوکس؛ CouchZap، پخش‌کنندهٔ اندروید؛ و IkevWrt، مدیریت VPN در OpenWrt. ابزارهای متن‌باز و اتوماسیون.",
       skip: "رفتن به محتوا",
       personalWebsite: "وب‌سایت شخصی",
       home: "سعید طاهری — آغاز صفحه",
@@ -46,7 +46,15 @@
       couchzapLink: "مشاهده CouchZap در گیت‌هاب",
       couchzapCategory: "پخش‌کنندهٔ IPTV برای اندروید",
       couchzapDescription:
-        "پخش‌کنندهٔ سبک IPTV برای تلویزیون و گوشی اندرویدی؛ ساخته‌شده با Kotlin و Media3، با ورود فهرست پخش محلی، کنترل با ریموت و رابط لمسی. از فهرست پخش خودتان استفاده کنید؛ کانال یا اشتراکی همراه برنامه نیست.",
+        "پخش‌کنندهٔ متن‌باز IPTV برای تلویزیون و گوشی اندرویدی، با شش زبان، چیدمان راست‌به‌چپ فارسی و عربی، کنترل با ریموت و چرخش رابط موبایل. پلی‌لیست خودتان را وارد کنید یا منابع عمومی اختیاری را انتخاب کنید؛ بدون نیاز به حساب و بدون اشتراک همراه برنامه.",
+      downloadApk: "دانلود APK",
+      couchzapDownload: "دانلود CouchZap 3.1.1 برای اندروید",
+      ikevwrtLink: "مشاهده IkevWrt در گیت‌هاب",
+      ikevwrtCategory: "مدیریت IKEv2 برای OpenWrt",
+      ikevwrtDescription:
+        "ادامهٔ یک مدیر VPN مبتنی بر IKEv2 برای OpenWrt، با رابط LuCI و مسیریابی بر اساس دامنه یا دستگاه. پشتیبانی فارسی و راست‌به‌چپ از پروژهٔ بالادستی به ارث رسیده است. نسخهٔ مستقل IkevWrt هنوز منتشر نشده است.",
+      maintainedFork: "فورک نگهداری‌شده",
+      upstreamProject: "پروژهٔ بالادستی",
       viewSource: "کد و جزئیات",
       buildSource: "کد و راهنمای ساخت",
       download: "دانلود بستهٔ .deb",
@@ -94,7 +102,7 @@
       lastName: "Taheri",
       title: "Saeed Taheri — Linux tools & automation",
       description:
-        "Explore Saeed Taheri’s open-source projects: Roozlet, a Persian Linux calendar; TallyDesklet, a system monitor; and CouchZap, an Android player. Python and automation.",
+        "Explore Saeed Taheri’s public projects: Roozlet, a Persian calendar; TallyDesklet, a Linux monitor; CouchZap, an Android player; and IkevWrt for OpenWrt VPN management.",
       skip: "Skip to content",
       personalWebsite: "Personal website",
       home: "Saeed Taheri — Back to top",
@@ -132,7 +140,15 @@
       couchzapLink: "View CouchZap on GitHub",
       couchzapCategory: "IPTV player for Android",
       couchzapDescription:
-        "A lightweight IPTV player for Android TV boxes and phones. Built with Kotlin and Media3, with local playlist import, remote navigation and touch controls. Bring your own playlist; no channels or subscriptions are bundled.",
+        "Open-source IPTV for Android TV and phones, with six languages, Persian/Arabic RTL, remote controls and phone rotation. Import your own playlist or choose optional public sources. No account needed; no subscription bundled.",
+      downloadApk: "Download APK",
+      couchzapDownload: "Download CouchZap 3.1.1 for Android",
+      ikevwrtLink: "View IkevWrt on GitHub",
+      ikevwrtCategory: "IKEv2 management for OpenWrt",
+      ikevwrtDescription:
+        "A maintained fork of the OpenWrt IKEv2 manager, with LuCI and routing by domain or device. Persian RTL support comes from upstream. An independent IkevWrt release is still in development.",
+      maintainedFork: "Maintained fork",
+      upstreamProject: "Upstream project",
       viewSource: "Source & details",
       buildSource: "Source & build guide",
       download: "Download .deb",
