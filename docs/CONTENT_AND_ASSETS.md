@@ -17,12 +17,15 @@ Versions printed on the page describe the reviewed release and feature set. The 
 
 ## Native application previews
 
-These are lossless WebP encodings of published native GTK captures. They show example data or an isolated example profile, not a user's real readings or private notes.
+The GTK previews are lossless WebP encodings of published native captures. They show example data or an isolated example profile, not a user's real readings or private notes. The CouchZap PNG is copied unchanged from the native design captures included in the v3.1.1 release tag; it shows the welcome/import screen, not live channel content.
 
 | Website asset | Source | Dimensions |
 | --- | --- | --- |
 | `assets/tallydesklet-v031.webp` | [`docs/examples/dark.png` at v0.3.1](https://github.com/saeedt20/TallyDesklet/blob/v0.3.1/docs/examples/dark.png), commit `753ebe946a54cc295cdf759b867fcf5dbe4a2ad7` | 680 × 860 |
 | `assets/roozlet-v041-autumn.webp` | [`docs/screenshots/v0.4.1-card-autumn-fa.png` at v0.4.1](https://github.com/saeedt20/Roozlet/blob/v0.4.1/docs/screenshots/v0.4.1-card-autumn-fa.png), commit `501aabdd5d9e7490a9c5220f71c96dc1da0d729b` | 320 × 236 |
+| `assets/couchzap-tv-v311.png` | [`docs/design/captures/welcome-tv-en.png` at v3.1.1](https://github.com/saeedt20/CouchZap/blob/v3.1.1/docs/design/captures/welcome-tv-en.png) | 960 × 540 |
+
+`assets/social-preview.jpg` is a 1200 × 630 browser-rendered composition of these three previews, the owner's public name and the site domain. It contains no new product artwork or private data. Its colors and typography follow the site.
 
 ## Workstation hero
 
