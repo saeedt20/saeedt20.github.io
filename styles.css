@@ -630,10 +630,6 @@ main:focus {
 .project-art-preview--brand {
   --preview-width: 100%;
 }
-.project-art-preview--router svg {
-  width: min(100%, 300px);
-  height: auto;
-}
 .project-art-preview--brand img {
   width: 100%;
   object-fit: contain;
@@ -743,9 +739,6 @@ main:focus {
   border-radius: 20px;
   font: 11px Arial, sans-serif;
   white-space: nowrap;
-}
-.project-status {
-  font-family: var(--font);
 }
 .about-section {
   display: grid;
