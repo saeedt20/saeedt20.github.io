@@ -551,6 +551,11 @@ main:focus {
   --art-ink: #3c5349;
   --art-border: #d4d0c1;
 }
+.project-opendsl {
+  --art-background: #141b24;
+  --art-ink: #e5edf5;
+  --art-border: #2c3846;
+}
 .project-geminishop,
 .project-numberflare {
   --art-background: #080908;

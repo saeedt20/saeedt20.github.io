@@ -9,7 +9,7 @@
       lastName: "طاهری",
       title: "سعید طاهری — ابزارهای لینوکس و اتوماسیون",
       description:
-        "پروژه‌های سعید طاهری: Roozlet، تقویم فارسی؛ TallyDesklet، پایش لینوکس؛ CouchZap، پخش‌کنندهٔ اندروید؛ و IkevWrt، مدیریت VPN در OpenWrt. ابزارهای متن‌باز و اتوماسیون.",
+        "پروژه‌های سعید طاهری: Roozlet، تقویم فارسی؛ TallyDesklet، پایش لینوکس؛ CouchZap، پخش‌کنندهٔ اندروید؛ IkevWrt در OpenWrt و OpenDSL برای مودم ASUS.",
       skip: "رفتن به محتوا",
       personalWebsite: "وب‌سایت شخصی",
       home: "سعید طاهری — آغاز صفحه",
@@ -59,6 +59,15 @@
       ikevwrtPreview: "پنل وضعیت LuCI · داده‌های نمایشی",
       ikevwrtDownload: "دانلود بستهٔ OpenWrt",
       upstreamProject: "پروژهٔ بالادستی",
+      opendslLink: "مشاهده OpenDSL در گیت‌هاب",
+      opendslCategory: "فریم‌ور و رابط وب محلی برای ASUS DSL-N12E C1",
+      opendslDescription:
+        "رابط وب محلی و واکنش‌گرا با طراحی گرافیتی برای مودم‌روتر ASUS DSL-N12E C1، همراه با نقشهٔ بصری شبکه، فهرست دستگاه‌های متصل و بخش‌های بازطراحی‌شدهٔ DSL، فایروال و وای‌فای. هسته و پشتهٔ شبکهٔ اصلی دستگاه حفظ شده و ۸۷ سند در چهار عرض نمایشی بدون سرریز افقی بررسی شده‌اند.",
+      opendslCompatibility:
+        "فریم‌ور مستقل جامعه با مجوز GPL-2.0 بر پایهٔ نسخهٔ 1.1.2.3_743؛ با امضای رسمی ASUS یا OpenWrt نیست و فقط برای مدل DSL-N12E C1 ارائه شده است. دسترسی مدیریت را فقط در شبکهٔ محلی مطمئن نگه دارید.",
+      opendslAlt: "پیش‌نمایش نقشهٔ شبکه در رابط وب OpenDSL با داده‌های نمایشی",
+      opendslPreview: "نقشهٔ شبکه · داده‌های نمایشی",
+      opendslDownload: "دانلود فریم‌ور",
       viewSource: "کد و جزئیات",
       buildSource: "کد و راهنمای ساخت",
       download: "دانلود بستهٔ .deb",
@@ -66,7 +75,7 @@
       profileAlt: "تصویر پروفایل سعید طاهری",
       profileCaption: "پروفایل گیت‌هاب",
       summary:
-        "من سعید طاهری هستم؛ پیشینه‌ام در فناوری اطلاعات، شبکه و مدیریت سیستم است. اکنون ابزارهای دسکتاپ لینوکس را با Python و GTK و اپ اندروید را با Kotlin می‌سازم و از هوش مصنوعی برای توسعه و اتوماسیون کمک می‌گیرم. Roozlet، TallyDesklet و CouchZap نمونه‌های این مسیر هستند.",
+        "من سعید طاهری هستم؛ پیشینه‌ام در فناوری اطلاعات، شبکه و مدیریت سیستم است. اکنون ابزارهای دسکتاپ لینوکس را با Python و GTK، اپ اندروید را با Kotlin و پروژه‌های شبکه و فریم‌ور روتر مانند IkevWrt و OpenDSL را توسعه می‌دهم و از هوش مصنوعی برای ساخت و اتوماسیون کمک می‌گیرم.",
       journey:
         "بیش از ۱۵ سال است که فناوری را دنبال می‌کنم و حدود ۸ سال تجربهٔ کار با لینوکس دارم. در حال حاضر از Linux Mint 22.3 با محیط دسکتاپ Xfce استفاده می‌کنم.",
       degree: "کارشناسی نرم‌افزار کامپیوتر",
@@ -106,7 +115,7 @@
       lastName: "Taheri",
       title: "Saeed Taheri — Linux tools & automation",
       description:
-        "Explore Saeed Taheri’s public projects: Roozlet, a Persian calendar; TallyDesklet, a Linux monitor; CouchZap, an Android player; and IkevWrt for OpenWrt VPN management.",
+        "Explore Saeed Taheri’s public projects: Roozlet (Persian calendar), TallyDesklet (Linux monitor), CouchZap (Android IPTV), IkevWrt (OpenWrt VPN) and OpenDSL.",
       skip: "Skip to content",
       personalWebsite: "Personal website",
       home: "Saeed Taheri — Back to top",
@@ -157,6 +166,15 @@
       ikevwrtPreview: "LuCI status · synthetic demo data",
       ikevwrtDownload: "Download OpenWrt package",
       upstreamProject: "Upstream project",
+      opendslLink: "View OpenDSL on GitHub",
+      opendslCategory: "Community firmware & web UI for ASUS DSL-N12E C1",
+      opendslDescription:
+        "A responsive graphite management interface for the ASUS DSL-N12E C1, featuring a visual Network Map, connected device previews and redesigned DSL, firewall and Wi-Fi pages. Preserves the native kernel and vendor networking stack; checked across 87 documents and four viewport widths with zero horizontal overflow.",
+      opendslCompatibility:
+        "Independent GPL-2.0 community firmware based on vendor 1.1.2.3_743; not ASUS-signed or OpenWrt, and for DSL-N12E C1 only. Keep management access on a trusted local network.",
+      opendslAlt: "OpenDSL Network Map interface preview with synthetic demo devices",
+      opendslPreview: "Network Map · synthetic demo data",
+      opendslDownload: "Download firmware",
       viewSource: "Source & details",
       buildSource: "Source & build guide",
       download: "Download .deb",
@@ -164,7 +182,7 @@
       profileAlt: "Saeed Taheri’s profile picture",
       profileCaption: "GitHub profile",
       summary:
-        "I’m Saeed Taheri, with a background in IT, networking and system administration. Today I build Linux desktop tools with Python and GTK, develop Android apps with Kotlin, and use AI to help with development and automation. Roozlet, TallyDesklet and CouchZap are part of that work.",
+        "I’m Saeed Taheri, with a background in IT, networking and system administration. Today I build Linux desktop tools with Python and GTK, develop Android apps with Kotlin, maintain router and embedded networking projects like IkevWrt and OpenDSL, and use AI for development and automation.",
       journey:
         "I’ve spent more than 15 years exploring technology, including around eight years using Linux. My current desktop is Linux Mint 22.3 with Xfce.",
       degree: "Bachelor’s degree in Computer Software",

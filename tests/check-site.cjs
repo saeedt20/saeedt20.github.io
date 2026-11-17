@@ -13,8 +13,8 @@ for (const [, id] of html.matchAll(/href="#([^"]+)"/g))
   assert(ids.includes(id), `Missing project or section: ${id}`);
 for (const [asset] of (html + css).matchAll(/assets\/[\w./-]+/g))
   assert(fs.existsSync(path.join(root, asset)), `Missing asset: ${asset}`);
-assert.equal((html.match(/class="project reveal"/g) || []).length, 6);
-assert.equal((html.match(/class="project-art project-/g) || []).length, 6);
+assert.equal((html.match(/class="project reveal"/g) || []).length, 7);
+assert.equal((html.match(/class="project-art project-/g) || []).length, 7);
 
 function page(url, savedLanguage, blocked = false) {
   let document;
@@ -91,4 +91,5 @@ intro.elements.get("skip-intro").listeners.click();
 assert(intro.regions.every((region) => !region.inert));
 assert(intro.elements.get("intro").hidden);
 assert.equal(intro.document.activeElement.id, "main");
-console.log("Site checks passed: translations, assets, links, six showcases, language URLs and intro focus.");
+assert(html.includes('id="opendsl"'));
+console.log("Site checks passed: translations, assets, links, seven showcases, language URLs and intro focus.");
