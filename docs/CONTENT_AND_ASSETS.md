@@ -1,23 +1,24 @@
 # Content and asset provenance
 
-Reviewed on **2026-10-26**. The website uses public GitHub documentation and release information. Residence details and private repositories are not part of its content.
+Reviewed on **2026-11-17**. The website uses public GitHub documentation and release information. Residence details and private repositories are not part of its content.
 
 ## Project content
 
 | Project | Public reference | Website scope |
 | --- | --- | --- |
-| TallyDesklet | [v0.3.1](https://github.com/saeedt20/TallyDesklet/releases/tag/v0.3.1) and [README](https://github.com/saeedt20/TallyDesklet/blob/v0.3.1/README.md) | Native Python/GTK monitor; CPU, RAM, filesystem capacity, network speed and daily/weekly usage; six themes; bilingual UI; Xfce/X11. |
-| Roozlet | [v0.4.1](https://github.com/saeedt20/Roozlet/releases/tag/v0.4.1) and [README](https://github.com/saeedt20/Roozlet/blob/v0.4.1/README.md) | Offline Persian calendar; four seasons; centered Shamsi date; month view; date/occasion search; local personal notes and optional notifications. Verified annual occasion/holiday coverage is **1405 only**. |
+| TallyDesklet | [v0.3.2](https://github.com/saeedt20/TallyDesklet/releases/tag/v0.3.2) and [README](https://github.com/saeedt20/TallyDesklet/blob/v0.3.2/README.md) | Native Python/GTK monitor; CPU, RAM, filesystem capacity, network speed and daily/weekly usage; six themes; bilingual UI; Xfce/X11. |
+| Roozlet | [v0.4.2](https://github.com/saeedt20/Roozlet/releases/tag/v0.4.2) and [README](https://github.com/saeedt20/Roozlet/blob/main/README.md) | Offline Persian calendar; four seasons; centered Shamsi date; month view; date/occasion search; local personal notes and optional notifications. Verified annual occasion/holiday coverage is **1405 only**. |
 | CouchZap | [v3.1.1](https://github.com/saeedt20/CouchZap/releases/tag/v3.1.1) and [README](https://github.com/saeedt20/CouchZap/blob/v3.1.1/README.md) | Stable open-source Android TV/phone player with Kotlin and Media3; six languages; Persian/Arabic RTL; local/URL playlists and opt-in public catalogs; remote controls and phone rotation. No account required or subscription bundled. The APK CTA points to the displayed official signed release. |
 | IkevWrt | [v1.13.5](https://github.com/saeedt20/ikevwrt/releases/tag/v1.13.5) and [README at 9e45520](https://github.com/saeedt20/ikevwrt/blob/9e45520628f24e961829ccd098564dc821ca94d5/README.md), reviewed **2026-10-31** | Outbound-only IKEv2, English-only LuCI, device/domain/IP policies, FakeIP, fail-closed protection and Cloudflare tunnel DoH. 57,559 bundled Iranian domain suffixes route directly through WAN by default. Signed OpenWrt APK; tested only on Redmi AX6S / OpenWrt 25.12.6. Other devices are unverified. The release page explains backup and one-time public-key setup. Based on Nikitid/ikev2-openwrt with inherited dreamboxone work. |
+| OpenDSL | [v1.0.0](https://github.com/saeedt20/OpenDSL/releases/tag/v1.0.0) and [README](https://github.com/saeedt20/OpenDSL/blob/v1.0.0/README.md) | Independent GPL-2.0 community firmware and responsive local graphite web UI for ASUS DSL-N12E C1 based on vendor 1.1.2.3_743. Preserves native kernel and networking stack; checked across 87 documents × 4 widths (348 renders). Not ASUS-signed or OpenWrt. |
 | Background | [Public profile README](https://github.com/saeedt20/saeedt20#readme) | IT and systems background, around eight years of Linux experience, education, AI-assisted troubleshooting and automation. |
 | Telegram projects | Existing owner-supplied public descriptions | GeminiShop and NumberFlare descriptions and destinations are retained; no private repository content is used. |
 
-Versions printed on the page describe the reviewed release and feature set. The `.deb` links use each project's `releases/latest` page so visitors can find installation instructions and checksums alongside the package. CouchZap's APK URL is pinned to v3.1.1 to match its badge; its published SHA-256 is `3cccfe433b6fe1d898b3f59d57c7704c384fa1f079164d298b2d93161bbb3f54`. TallyDesklet v0.3.1 and Roozlet v0.4.1 remain current and retain their matching native previews.
+Versions printed on the page describe the reviewed release and feature set. The `.deb` links use each project's `releases/latest` page so visitors can find installation instructions and checksums alongside the package. CouchZap's APK URL is pinned to v3.1.1 to match its badge; its published SHA-256 is `3cccfe433b6fe1d898b3f59d57c7704c384fa1f079164d298b2d93161bbb3f54`. TallyDesklet v0.3.2 and Roozlet v0.4.2 retain the matching v0.3.1 / v0.4.1 native UI captures since no visual layout changes were introduced in those reliability releases.
 
 ## Native application previews
 
-The GTK previews are lossless WebP encodings of published native captures. They show example data or an isolated example profile, not a user's real readings or private notes. The CouchZap PNG is copied unchanged from the native design captures included in the v3.1.1 release tag; it shows the welcome/import screen, not live channel content.
+The GTK previews are lossless WebP encodings of published native captures. They show example data or an isolated example profile, not a user's real readings or private notes. The CouchZap PNG is copied unchanged from the native design captures included in the v3.1.1 release tag; it shows the welcome/import screen, not live channel content. The OpenDSL preview is a WebP encoding of the published Network Map capture with synthetic devices and readings.
 
 | Website asset | Source | Dimensions |
 | --- | --- | --- |
@@ -25,6 +26,8 @@ The GTK previews are lossless WebP encodings of published native captures. They 
 | `assets/roozlet-v041-autumn.webp` | [`docs/screenshots/v0.4.1-card-autumn-fa.png` at v0.4.1](https://github.com/saeedt20/Roozlet/blob/v0.4.1/docs/screenshots/v0.4.1-card-autumn-fa.png), commit `501aabdd5d9e7490a9c5220f71c96dc1da0d729b` | 320 × 236 |
 | `assets/couchzap-tv-v311.png` | [`docs/design/captures/welcome-tv-en.png` at v3.1.1](https://github.com/saeedt20/CouchZap/blob/v3.1.1/docs/design/captures/welcome-tv-en.png) | 960 × 540 |
 | `assets/ikevwrt-status-v1135.jpg` | [`docs/images/status-widget-demo.jpg` at 9e45520](https://github.com/saeedt20/ikevwrt/blob/9e45520628f24e961829ccd098564dc821ca94d5/docs/images/status-widget-demo.jpg); synthetic design preview, copied unchanged | 1440 × 590 |
+| `assets/opendsl-network-map-v100.webp` | [`docs/images/network-map.png` at v1.0.0](https://github.com/saeedt20/OpenDSL/blob/v1.0.0/docs/images/network-map.png); synthetic demo devices, resized WebP | 960 × 743 |
+| `assets/opendsl-icon.svg` | [`docs/brand/opendsl.svg` at v1.0.0](https://github.com/saeedt20/OpenDSL/blob/v1.0.0/docs/brand/opendsl.svg) | 24 × 24 viewBox |
 
 `assets/social-preview.jpg` is a 1200 × 630 browser-rendered composition of these three previews, the owner's public name and the site domain. It contains no new product artwork or private data. Its colors and typography follow the site.
 
